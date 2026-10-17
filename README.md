@@ -12,7 +12,7 @@ Popis porovnávání tabulek je zde:  <br>
 
 Tomu samozřejmě odpovídají soubory Excelu s makry ve VBA: <br>
 [Generování requestů - VBA](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Tools/Gen%20Request/gen_requests_Postman.xlsm) <br>
-https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Tools/Compare%20csv%20%26%20json/jsons_Csv_Comparator.xlsm
+[Porovnávání výsledků testů - VBA](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Tools/Compare%20csv%20%26%20json/jsons_Csv_Comparator.xlsm)
 
 Requesty lze importovat do Postmanu, jsou uložené zde: <br>
 GET + POST   https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Requests%20Postman/GET_POST.json <br>
