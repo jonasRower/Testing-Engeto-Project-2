@@ -16,7 +16,7 @@ Requesty lze importovat do Postmanu, jsou uložené zde: <br>
 [import GET + POST](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Requests%20Postman/GET_POST.json) <br>
 [import UPDATE](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Requests%20Postman/UPDATE.json)
 
-Exportované responses z API tetů v Postman testu GET jsou ve složce zde. Je zde i přiložen soubor csv obsahující data z DB: <br>
+Exportované responses z API testů v Postman testu GET jsou ve složce zde. Je zde i přiložen soubor csv obsahující data z DB: <br>
 [Test data GET](https://github.com/jonasRower/Testing-Engeto-Project-2/tree/main/results_tests/GET) <br>
 [Porovnání testu GET](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/results_tests/GET/GET.xlsx) <br>
 
