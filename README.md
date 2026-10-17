@@ -19,12 +19,11 @@ Requesty lze importovat do Postmanu, jsou uložené zde: <br>
 [import UPDATE](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Requests%20Postman/UPDATE.json)
 
 Exportované responses z API tetů v Postman testu GET jsou ve složce zde. Je zde i přiložen soubor csv obsahující data z DB: <br>
-https://github.com/jonasRower/Testing-Engeto-Project-2/tree/main/results_tests/GET
-Soubor GET.xlsx v dané složce dokumentuje porovnání dat z testu <br>
-https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/results_tests/GET/GET.xlsx <br>
+[Test data GET](https://github.com/jonasRower/Testing-Engeto-Project-2/tree/main/results_tests/GET) <br>
+[Porovnání testu GET](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/results_tests/GET/GET.xlsx) <br>
 
 Obdobně jsou i uložena data pro test POST. Avšak zde byla data pouze exportována z DB a to před a po testu. Tomu odpovídá dvojice csv. <br>
-https://github.com/jonasRower/Testing-Engeto-Project-2/tree/main/results_tests/POST
+[Test data POST](https://github.com/jonasRower/Testing-Engeto-Project-2/tree/main/results_tests/POST)
 
 
 
