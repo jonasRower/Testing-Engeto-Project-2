@@ -15,8 +15,8 @@ Tomu samozřejmě odpovídají soubory Excelu s makry ve VBA: <br>
 [Porovnávání výsledků testů - VBA](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Tools/Compare%20csv%20%26%20json/jsons_Csv_Comparator.xlsm)
 
 Requesty lze importovat do Postmanu, jsou uložené zde: <br>
-GET + POST   https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Requests%20Postman/GET_POST.json <br>
-UPDATE       https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Requests%20Postman/UPDATE.json
+[import GET + POST](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Requests%20Postman/GET_POST.json)
+[import UPDATE](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Requests%20Postman/UPDATE.json)
 
 Exportované responses z API tetů v Postman testu GET jsou ve složce zde. Je zde i přiložen soubor csv obsahující data z DB: <br>
 https://github.com/jonasRower/Testing-Engeto-Project-2/tree/main/results_tests/GET
