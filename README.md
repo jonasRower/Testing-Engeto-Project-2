@@ -2,7 +2,7 @@
 Testování API
 
 Složka Tools obsahuje nástroje pro vytváření Requestů a porovnání tabulek: <br>
-https://github.com/jonasRower/Testing-Engeto-Project-2/tree/main/Tools
+[Projekt Github](https://github.com/jonasRower/Testing-Engeto-Project-2/tree/main/Tools)
 
 Popis vytváření Requestů je zde:  <br>
 https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Tools/Gen%20Request/Generov%C3%A1n%C3%AD%20request%C5%AF%20do%20Postmanu.pdf
