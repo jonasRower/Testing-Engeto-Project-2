@@ -1,9 +1,10 @@
 # Testing-Engeto-Project-2
 Testování API
 
-V současné době jsou vytvořeny pouze nástroje (makra Excelu) pro snadné zadávání vstupů a vyhodnocování výsledků - Složka Tools.
+Složka Tools obsahuje nástroje pro vytváření Requestů a porovnání tabulek
+https://github.com/jonasRower/Testing-Engeto-Project-2/tree/main/Tools
 
-.... Na vlastních testech se pracuje ....
+
 
 
 
