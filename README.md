@@ -1,8 +1,8 @@
 # Testing-Engeto-Project-2
 Testování API
 
-Projekt s daty: <br>
-[Projekt Github](https://github.com/jonasRower/Testing-Engeto-Project-2/tree/main/Tools)
+Nástroje: <br>
+[Tools](https://github.com/jonasRower/Testing-Engeto-Project-2/tree/main/Tools)
 
 Manuály:  <br>
 [Popis nástroje pro vytváření requestů](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Tools/Gen%20Request/Generov%C3%A1n%C3%AD%20request%C5%AF%20do%20Postmanu.pdf) <br>
