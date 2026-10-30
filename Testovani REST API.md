@@ -34,11 +34,9 @@ body {
 Returns a single student identified by numeric ID.
 
 ### Parameters
-| Month    | Savings |
+| Name     | Description |
 | -------- | ------- |
-| January  | $250    |
-| February | $80     |
-| March    | $420    |
+| student_id * (required) [integer]  | student_id    |
 
 
 ### You can add a header
