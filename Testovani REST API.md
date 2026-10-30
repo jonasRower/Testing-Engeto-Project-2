@@ -41,6 +41,6 @@ You can add an image or a code block, too.
 
 </details>
 
-```diff
+
 ! This line is blue
-```
+
