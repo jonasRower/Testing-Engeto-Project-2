@@ -25,7 +25,7 @@ body {
 }
 ```
 
-<details>
+<detail>
 
 > [!NOTE]
 > Useful information that users should know, even when skimming content.
@@ -42,7 +42,7 @@ You can add an image or a code block, too.
    puts "Hello World"
 ```
 
-</details>
+</detail>
 
 
 <details style="background-color: #fef3c7; padding: 10px; border-radius: 5px;">
