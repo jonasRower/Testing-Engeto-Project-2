@@ -38,6 +38,13 @@ Returns a single student identified by numeric ID.
 | -------- | ------- |
 | student_id * (required) [integer]  | student_id    |
 
+### Responses
+| Code     | Description |
+| -------- | ------- |
+| 200  | Student found and returned.  |
+	
+Student found and returned.
+
 
 ### You can add a header
 
