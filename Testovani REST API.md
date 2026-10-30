@@ -30,9 +30,16 @@ body {
 <details>
 
 <summary>GET</summary>
+<br>
 Returns a single student identified by numeric ID.
 
 ### Parameters
+| Month    | Savings |
+| -------- | ------- |
+| January  | $250    |
+| February | $80     |
+| March    | $420    |
+
 
 ### You can add a header
 
