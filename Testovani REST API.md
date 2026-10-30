@@ -19,6 +19,7 @@ Platí, že: <br>
 3. metoda PUT upraví záznam o studentovi
 4. metoda DELETE smaže data o studentovi
 
-<div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:center; vertical-align: middle; padding:40px 0;">
-<a href="/donate">DONATE</a>
-</div>
+```css
+body {
+  font-size: 16px;  /* comment */
+}
