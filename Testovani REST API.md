@@ -41,5 +41,10 @@ You can add an image or a code block, too.
 
 </details>
 
-https://img.shields.io/badge/any_text-you_like-blue
+<details style="background-color: #fef3c7; padding: 10px; border-radius: 5px;">
+  <summary style="font-weight: bold; cursor: pointer;">Click to expand</summary>
+  <div style="margin-top: 8px; color: #92400e;">
+    This is the hidden content inside a colored background!
+  </div>
+</details>
 
