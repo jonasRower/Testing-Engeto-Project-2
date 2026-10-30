@@ -55,4 +55,7 @@ You can add an image or a code block, too.
 <span style="color: red">This text is red.</span>
 
 
+<font color="red">This text uses the obsolete font tag.</font>
+
+
 
