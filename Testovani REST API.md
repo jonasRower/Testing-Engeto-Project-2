@@ -41,5 +41,5 @@ You can add an image or a code block, too.
 
 </details>
 
-This is <mark>highlighted text</mark> in a sentence.
+[This is <mark>highlighted text</mark> in a sentence.](https://img.shields.io/badge/any_text-you_like-blue)
 
