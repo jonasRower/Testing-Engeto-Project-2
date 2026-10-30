@@ -41,6 +41,5 @@ You can add an image or a code block, too.
 
 </details>
 
-
-! This line is blue
+![version](https://img.shields.io/badge/version-2.1.0-blue)
 
