@@ -25,6 +25,8 @@ body {
 }
 ```
 
+## Podrobná dokumentace
+
 <details>
 
 <summary>GET</summary>
