@@ -10,7 +10,7 @@
 2. [Porovnávání tabulek](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Tools/Compare%20csv%20%26%20json/Porovn%C3%A1v%C3%A1n%C3%AD%20tabulek.pdf) <br> [Nástroj je zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Tools/Compare%20csv%20%26%20json/jsons_Csv_Comparator.xlsm)
 
 ## Zadání
-Cílem projektu je otestování REST rozhraní běžící na adrese https://test-app.engeto.cz/students.
+Cílem projektu je otestování REST rozhraní běžící na adrese https://test-app.engeto.cz/students.<br>
 Rozhraní slouží pro manipulaci dat studentů. Otestuj metody GET, POST, PUT a DELETE. Tvým úkolem je ověřit, zda API rozhraní správně reaguje na chyby, úspěch, ale i to, jestli je konzistentní s databází. Nezapomeň aplikovat znalosti z lekcí 1 až 4 (testovací scénáře, defekt, status kódy, SQL dotazy,...).
 
 Platí, že: <br>
