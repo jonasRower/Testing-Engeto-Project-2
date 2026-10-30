@@ -27,9 +27,6 @@ body {
 
 <details>
 
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
-
 <summary>Tips for collapsed sections</summary>
 
 ### You can add a header
@@ -45,21 +42,6 @@ You can add an image or a code block, too.
 </details>
 
 
-<details style="background-color: #fef3c7; padding: 10px; border-radius: 5px;">
-  <summary style="font-weight: bold; cursor: pointer;">Click to expand</summary>
-  <div style="margin-top: 8px; color: #92400e;">
-    This is the hidden content inside a colored background!
-  </div>
-</details>
-
-<span style="color: red">This text is red.</span>
-
-
-<font color="red">This text uses the obsolete font tag.</font>
-
-| Status | Message |
-| :--- | :--- |
-| **Info** | <span style="background-color: #cceeff; padding: 2px 4px;">Highlighted blue text</span> |
 
 
 
