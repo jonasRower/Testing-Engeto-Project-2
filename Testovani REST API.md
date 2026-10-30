@@ -27,7 +27,7 @@ body {
 
 <details>
 
-<summary>Tips for collapsed sections</summary>
+<summary>GET</summary>
 
 ### You can add a header
 
