@@ -30,6 +30,9 @@ body {
 <details>
 
 <summary>GET</summary>
+Returns a single student identified by numeric ID.
+
+### Parameters
 
 ### You can add a header
 
