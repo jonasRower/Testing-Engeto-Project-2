@@ -27,6 +27,9 @@ body {
 
 <details>
 
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
 <summary>Tips for collapsed sections</summary>
 
 ### You can add a header
@@ -51,6 +54,5 @@ You can add an image or a code block, too.
 
 <span style="color: red">This text is red.</span>
 
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
+
 
