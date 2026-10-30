@@ -14,7 +14,7 @@ Cílem projektu je otestování REST rozhraní běžící na adrese https://test
 Rozhraní slouží pro manipulaci dat studentů. Otestuj metody GET, POST, PUT a DELETE. Tvým úkolem je ověřit, zda API rozhraní správně reaguje na chyby, úspěch, ale i to, jestli je konzistentní s databází. Nezapomeň aplikovat znalosti z lekcí 1 až 4 (testovací scénáře, defekt, status kódy, SQL dotazy,...).
 
 Platí, že: <br>
-metoda GET zobrazí data o existujícim studentovi <br>
-metoda POST založí záznam o studentovi <br>
-metoda PUT upraví záznam o studentovi <br>
-metoda DELETE smaže data o studentovi <br>
+1. metoda GET zobrazí data o existujícim studentovi
+2. metoda POST založí záznam o studentovi
+3. metoda PUT upraví záznam o studentovi
+4. metoda DELETE smaže data o studentovi
