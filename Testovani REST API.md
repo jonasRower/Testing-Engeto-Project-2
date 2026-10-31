@@ -204,7 +204,11 @@ Schema:
 </details>
 
 ## Testovací scénáře
-### _Ověření konzistence s DB_
+### Ověření konzistence s DB
+#### Generování sady testů
+
+Použili jsme vlastní program: <br>
+[Generování requestů do Postmanu](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Tools/Gen%20Request/Generov%C3%A1n%C3%AD%20request%C5%AF%20do%20Postmanu.pdf) <br> [Nástroj je zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Tools/Gen%20Request/gen_requests_Postman.xlsm)
 
 <details>
 
