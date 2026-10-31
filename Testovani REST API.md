@@ -19,11 +19,6 @@ Platí, že: <br>
 3. metoda PUT upraví záznam o studentovi
 4. metoda DELETE smaže data o studentovi
 
-```css
-body {
-  font-size: 16px;  /* comment */
-}
-```
 
 ## Podrobná dokumentace
 
