@@ -110,9 +110,9 @@ Schema:
 
 | Code     | Description |
 | -------- | ------- |
-| 401  | Missing or invalid bearer token.  |
-| 404  | Student with the given ID was not found.|
-| 422  | Validation Error.|
+| 400  | Student with the same e-mail already exists.  |
+| 401  | Missing or invalid bearer token.|
+| 422  | Payload failed validation. |
 
 </details>
 
