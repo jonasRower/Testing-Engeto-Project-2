@@ -204,7 +204,7 @@ Schema:
 </details>
 
 ## Testovací scénáře
-* Ověření konzistence s DB
+### _Ověření konzistence s DB_
 
 <details>
 
