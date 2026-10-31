@@ -170,7 +170,37 @@ Schema:
 </details>
 
 
+<details>
 
+<summary>DELETE</summary>
+<br>
+url: https://test-app.engeto.cz/students/{student_id}
+<br>
+Deletes the student identified by the provided ID.
+
+### Parameters
+| Name     | Description |
+| -------- | ------- |
+| student_id * (required) [integer]  | student_id    |
+
+
+### Responses
+| Code     | Description |
+| -------- | ------- |
+| 200  | Delete operation completed (but data may not be deleted - bug for testing). |
+
+Schema:
+```json
+  "string"
+```
+
+| Code     | Description |
+| -------- | ------- |
+| 400  | Student with the same e-mail already exists.  |
+| 404  | Student with the given ID was not found.|
+| 422  | Validation Error.|
+
+</details>
 
 
 
