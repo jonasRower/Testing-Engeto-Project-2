@@ -212,7 +212,9 @@ Použili jsme vlastní nástroj: <br>
 
 <details>
 
-<summary>GET</summary>
+<summary>GET+POST</summary>
+Pomocí nástroje jsme vygenerovali requesty do Postmanu. Requesty jsou uložené zde:
+
 
 </details>
 
