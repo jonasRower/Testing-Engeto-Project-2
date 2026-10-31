@@ -210,8 +210,7 @@ Použili jsme vlastní nástroj: <br>
 <summary>GET+POST</summary>
 Pomocí nástroje jsme vygenerovali requesty do Postmanu. Requesty jsou uložené zde: <br>
 
-[Generování requestů do Postmanu](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Tools/Gen%20Request/Generov%C3%A1n%C3%AD%20request%C5%AF%20do%20Postmanu.pdf) 
-[Requesty GET+POST - Postman]((https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Requests%20Postman/GET_POST.json)) 
+[Requesty GET+POST - Postman](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Requests%20Postman/GET_POST.json) 
 
 
 
