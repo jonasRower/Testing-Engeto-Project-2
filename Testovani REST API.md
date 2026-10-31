@@ -55,21 +55,14 @@ Schema:
 }
 ```
 
+| Code     | Description |
+| -------- | ------- |
+| 401  | Missing or invalid bearer token.  |
+| 404  | Student with the given ID was not found.|
+| 422  | Validation Error.|
+
 	
-Student found and returned.
 
-
-### You can add a header
-
-You can add text within a collapsed section.
-
-You can add an image or a code block, too.
-
-```ruby
-   puts "Hello World"
-```
-
-</details>
 
 
 
