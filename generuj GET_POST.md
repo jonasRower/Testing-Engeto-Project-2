@@ -1,1 +1,2 @@
+## Generování requestů GET + POST
 
