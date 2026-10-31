@@ -200,7 +200,18 @@ Schema:
 | 404  | Student with the given ID was not found.|
 | 422  | Validation Error.|
 
+
 </details>
+
+## Testovací scénáře
+### Ověření konzistence s DB
+
+<details>
+
+<summary>POST</summary>
+
+</details>
+
 
 
 
