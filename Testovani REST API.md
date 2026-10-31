@@ -42,9 +42,18 @@ Returns a single student identified by numeric ID.
 | Code     | Description |
 | -------- | ------- |
 | 200  | Student found and returned.  |
-|   | ```ruby
-   puts "Hello World"
-```  |
+
+Schema:
+```json
+  {
+  "id": 0,
+  "firstName": "string",
+  "lastName": "string",
+  "email": "string",
+  "isEuCitizen": true,
+  "numberOfFailedStudies": 0
+}
+```
 
 	
 Student found and returned.
