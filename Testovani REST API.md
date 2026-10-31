@@ -42,6 +42,10 @@ Returns a single student identified by numeric ID.
 | Code     | Description |
 | -------- | ------- |
 | 200  | Student found and returned.  |
+|   | ```ruby
+   puts "Hello World"
+```  |
+
 	
 Student found and returned.
 
