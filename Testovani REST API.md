@@ -208,7 +208,7 @@ Schema:
 
 <details>
 
-<summary>POST</summary>
+<summary>GET</summary>
 
 </details>
 
