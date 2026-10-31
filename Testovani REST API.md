@@ -30,6 +30,9 @@ body {
 <details>
 
 <summary>GET</summary>
+
+<br>
+url: https://test-app.engeto.cz/students/{student_id}
 <br>
 Returns a single student identified by numeric ID.
 
@@ -61,7 +64,55 @@ Schema:
 | 404  | Student with the given ID was not found.|
 | 422  | Validation Error.|
 
-	
+</details>
+
+<details>
+
+<summary>PUT</summary>
+<br>
+url: https://test-app.engeto.cz/students/{student_id}
+<br>
+Updates an existing student using the supplied partial payload.
+
+### Request body
+```json
+  {
+  "firstName": "string",
+  "lastName": "string",
+  "email": "string",
+  "isEuCitizen": true,
+  "zipCode": "string",
+  "numberOfFailedStudies": 0
+}
+```
+
+### Responses
+| Code     | Description |
+| -------- | ------- |
+| 200  | Student updated successfully.  |
+
+Schema:
+```json
+  {
+  "id": 0,
+  "firstName": "string",
+  "lastName": "string",
+  "email": "string",
+  "isEuCitizen": true,
+  "numberOfFailedStudies": 0
+}
+```
+
+
+
+| Code     | Description |
+| -------- | ------- |
+| 401  | Missing or invalid bearer token.  |
+| 404  | Student with the given ID was not found.|
+| 422  | Validation Error.|
+
+</details>
+
 
 
 
