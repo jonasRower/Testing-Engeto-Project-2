@@ -68,11 +68,14 @@ Schema:
 
 <details>
 
-<summary>PUT</summary>
+<summary>POST</summary>
 <br>
-url: https://test-app.engeto.cz/students/{student_id}
+url: https://test-app.engeto.cz/students/
 <br>
-Updates an existing student using the supplied partial payload.
+Creates a new student using the provided payload.
+
+### Parameters
+No parameters
 
 ### Request body
 ```json
@@ -112,6 +115,60 @@ Schema:
 | 422  | Validation Error.|
 
 </details>
+
+<details>
+
+<summary>PUT</summary>
+<br>
+url: https://test-app.engeto.cz/students/{student_id}
+<br>
+Updates an existing student using the supplied partial payload.
+
+### Parameters
+| Name     | Description |
+| -------- | ------- |
+| student_id * (required) [integer]  | student_id    |
+
+
+### Request body
+```json
+  {
+  "firstName": "string",
+  "lastName": "string",
+  "email": "string",
+  "isEuCitizen": true,
+  "zipCode": "string",
+  "numberOfFailedStudies": 0
+}
+```
+
+### Responses
+| Code     | Description |
+| -------- | ------- |
+| 200  | Student updated successfully.  |
+
+Schema:
+```json
+  {
+  "id": 0,
+  "firstName": "string",
+  "lastName": "string",
+  "email": "string",
+  "isEuCitizen": true,
+  "numberOfFailedStudies": 0
+}
+```
+
+
+
+| Code     | Description |
+| -------- | ------- |
+| 401  | Missing or invalid bearer token.  |
+| 404  | Student with the given ID was not found.|
+| 422  | Validation Error.|
+
+</details>
+
 
 
 
