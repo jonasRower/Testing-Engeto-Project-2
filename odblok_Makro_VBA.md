@@ -8,3 +8,4 @@ Pro stažení a odblokování maker provedeme následující kroky:
 ![Stažení](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/downLoaded_Macro.png)
 
 2. Vyvolat Vlastnosti souboru. <br> To provedeme levým klikem na soubor ->  Zobrazit další možnosti -> Vlastnosti
+   ![vlastnosti](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/vlastnosti.png)
