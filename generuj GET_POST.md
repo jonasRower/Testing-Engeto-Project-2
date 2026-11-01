@@ -10,7 +10,8 @@ Otevřeme stažený soubor.<br>
 <summary>list "info"</summary>
  
 <br>
-Vyplníme hodnoty do buněk A2 a A5 
+Vyplníme hodnoty do buněk A2 a A5
+
 ![infoVBA](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/infoVBA.png)
 
 </details>
