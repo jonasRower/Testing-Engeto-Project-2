@@ -12,3 +12,5 @@ Pro stažení a odblokování maker provedeme následující kroky:
 
 3. V nabídce Vlastnosti na kartě Obecné, zaškrtneme Checkbox Odblokovat a následně stiskneme Použít
    ![makro](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/makro.png)
+
+Po otevření souboru by měla být makra již odblokována a v souboru makra již možné spouštět.
