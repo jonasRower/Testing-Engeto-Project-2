@@ -37,7 +37,10 @@ Vyplníme list POST - body dle vzoru níže:
 ![postBodyVBA](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/POST-bodyVBA.png)
 
 Kde sloupce B a C odpovídají tělu requestu v Postmanu
-![bodyPostman](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/postManBodyVzor.png)
+![bodyPostman](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/postManBodyVzor.png) <br>
+<br>
+Pro testování je však zapotřebí vytvořit jedinečnou sadu hodnot.  
+
 
 </details>
 
