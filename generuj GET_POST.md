@@ -5,9 +5,18 @@ Je potřeba odblokovat makra:
 [Jak odblokovat makra](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/odblok_Makro_VBA.md) <br>
 Otevřeme stažený soubor.<br>
 <br>
+
+<details>
+
+<summary>list "reuest"</summary>
+
 List request vyplníme podle vzoru viz obrázek níže:
 ![VBArequest](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/request.png) <br>
  <br>
 kde jsme barevně zarámovali vstupní hodnoty. Stejnou barvou jsou zarámované hodnoty v Postmanu
 ![reqestColPost](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/requestColorPostman.png)
+
+</details>
+
+
 
