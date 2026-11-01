@@ -8,7 +8,7 @@ Otevřeme stažený soubor.<br>
 
 <details>
 
-<summary>list "reuest"</summary>
+<summary>list "request"</summary>
 
 List request vyplníme podle vzoru viz obrázek níže:
 ![VBArequest](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/request.png) <br>
