@@ -11,7 +11,7 @@ Otevřeme stažený soubor.<br>
 <summary>list "info"</summary>
 
 Vyplníme hodnoty do buněk A2 a A5 
-![infoVBA][(https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/infoVBA.png)
+![infoVBA](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/request.png)
 
 </details>
 
