@@ -8,6 +8,20 @@ Otevřeme stažený soubor.<br>
 
 <details>
 
+<summary>list "info"</summary>
+
+Vyplníme hodnoty do buněk A2 a A5 
+![infoVBA][(https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/infoVBA.png)
+
+</details>
+
+
+
+<details>
+
+
+
+
 <summary>list "request"</summary>
 
 List request vyplníme podle vzoru viz obrázek níže:
