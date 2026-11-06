@@ -32,15 +32,15 @@ kde jsme barevně zarámovali vstupní hodnoty. Stejnou barvou jsou zarámované
 
 <details>
 <summary>list "POST - body"</summary>
-
+<br><br>
 ### Vyplnění sloupců A , B , C
 Vyplníme list POST - body dle vzoru níže:
 ![postBodyVBA](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/POST-bodyVBA.png)
 
 Kde sloupce B a C odpovídají tělu requestu v Postmanu. Sloupec A odpovídá atributům z DB.
 ![bodyPostman](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/postManBodyVzor.png) <br>
-<br>
 
+<br><br>
 ### Vytvoření sady jedinečných hodnot
 Pro testování je však zapotřebí vytvořit jedinečnou sadu hodnot. Je potřeba tedy ověřit, že data ve sloupci C nejsou duplicitní k datům exportovaným z DB. 
 
@@ -69,6 +69,7 @@ Potvrdili jsme "Ano" a duplicitní hodnoty se přečíslovali, viz obr níže, s
 
 </details>
 
+<br><br>
 ### Kombinatorika jedinečných hodnot
 Stisknutím tlačítka "Kombinuj requesty POST" se vytvoří kombinace jednotlivých requestů metody POST. Všechny vytvořené kombinace jsou vygenerovány na list "kombinatorika"
 ![kombinatorika](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/kombinatorika.png)
