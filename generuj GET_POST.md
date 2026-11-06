@@ -32,6 +32,7 @@ kde jsme barevně zarámovali vstupní hodnoty. Stejnou barvou jsou zarámované
 
 <details>
 <summary>list "POST - body"</summary>
+ 
 <br><br>
 ### Vyplnění sloupců A , B , C
 Vyplníme list POST - body dle vzoru níže:
