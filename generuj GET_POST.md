@@ -44,6 +44,10 @@ Kde sloupce B a C odpovídají tělu requestu v Postmanu. Sloupec A odpovídá a
 ### Vytvoření sady jedinečných hodnot
 Pro testování je však zapotřebí vytvořit jedinečnou sadu hodnot.  
 
+<details>
+<summary>Nastavení složky s daty z DB</summary>
+
+</details>
 
 </details>
 
