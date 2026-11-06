@@ -5,6 +5,7 @@ Je potřeba odblokovat makra:
 [Jak odblokovat makra](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/odblok_Makro_VBA.md) <br>
 Otevřeme stažený soubor.<br>
 <br>
+### Vyplnění vstupních hodnot
 
 <details>
 <summary>list "info"</summary>
@@ -75,3 +76,4 @@ Potvrdili jsme "Ano" a duplicitní hodnoty se přečíslovali, viz obr níže, s
 Stisknutím tlačítka "Kombinuj requesty POST" se vytvoří kombinace jednotlivých requestů metody POST. Všechny vytvořené kombinace jsou vygenerovány na list "kombinatorika"
 ![kombinatorika](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/kombinatorika.png)
 
+### Vygenerování jsonu do Postmanu
