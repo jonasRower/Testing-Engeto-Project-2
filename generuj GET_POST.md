@@ -63,8 +63,7 @@ Po stisku tlačítka "Vytvor unikatni testovaci data" se záznamy všech těchto
 Nalezne-li program shodná data ve sloupci C s daty vyexportovanými z DB, pak se zeptá uživatele, zda hodnotu smí přečíslovat. Po stisku na tlačítko "Ano" se hodnota přečísluje.
  
 ![precisluj](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/unikatniDataTest.png)
-
-<br><br>
+<br>
 Potvrdili jsme "Ano" a duplicitní hodnoty se přečíslovali, viz obr níže, sloupec C.
 ![precisl](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/hodnZmenene.png)
 
