@@ -46,7 +46,7 @@ Pro testování je však zapotřebí vytvořit jedinečnou sadu hodnot. Je potř
 
 <details>
 <summary>Nastavení složky s daty z DB</summary>
-
+<br><br>
 Postup exportování dat z DB popisujeme
 [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/export_DB.md) <br>
 
@@ -58,12 +58,15 @@ Adresu nadřazené složky můžeme překopírovat pomocí Ctrl+C a Ctrl+V z pr�
 
 <details>
 <summary>Ověření duplicitnícxh dat</summary>
+<br><br>
 Po stisku tlačítka "Vytvor unikatni testovaci data" se záznamy všech těchto tabulek, uloženými na adrese výše, porovnají s hodnotami ve sloupci C.
 Nalezne-li program shodná data ve sloupci C s daty vyexportovanými z DB, pak se zeptá uživatele, zda hodnotu smí přečíslovat. Po stisku na tlačítko "Ano" se hodnota přečísluje.
  
 ![precisluj](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/unikatniDataTest.png)
 
-
+<br><br>
+Potvrdili jsme "Ano" a duplicitní hodnoty se přečíslovali, viz obr níže, sloupec C.
+![precisl](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/hodnZmenene.png)
 
 </details>
 
