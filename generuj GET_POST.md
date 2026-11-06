@@ -32,8 +32,8 @@ kde jsme barevně zarámovali vstupní hodnoty. Stejnou barvou jsou zarámované
 
 <details>
 <summary>list "POST - body"</summary>
+<br>
  
-<br><br>
 ### Vyplnění sloupců A , B , C
 Vyplníme list POST - body dle vzoru níže:
 ![postBodyVBA](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/POST-bodyVBA.png)
