@@ -46,12 +46,11 @@ Pro testování je však zapotřebí vytvořit jedinečnou sadu hodnot.
 
 <details>
 <summary>Nastavení složky s daty z DB</summary>
+
 Je potřeba tedy ověřit, že data ve sloupci C nejsou duplicitní k datům exportovaným z DB. <br>
-Exportujeme tedy data z DB dle postupu
- 
 [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/export_DB.md) <br>
 
-
+ 
 </details>
 
 </details>
