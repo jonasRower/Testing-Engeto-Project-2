@@ -55,7 +55,10 @@ Postup exportování dat z DB popisujeme
 
 Poté je potřeba nastavit složku s cestou s exportovanými csv soubory. Lze zadat jakoukoliv nadřazenou složku. Program vyhledá všechny csv soubory, které jsou názvu [název tabulky]_datum čas.csv. <br>
 Adresu nadřazené složky můžeme překopírovat pomocí Ctrl+C a Ctrl+V z průzkumníku složek, nebo složku vybrat pomocí tlačítka
- ![slozkaButt](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/slozkaButtt.png)
+ ![slozkaButt](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/slozkaButtt.png) <br>
+
+Jedná se o adresu složky umístěné v buňce F2
+![nadrSlozka](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/nadrazenSlozka.png)
  
 </details>
 
