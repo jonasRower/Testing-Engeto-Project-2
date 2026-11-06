@@ -36,7 +36,7 @@ kde jsme barevně zarámovali vstupní hodnoty. Stejnou barvou jsou zarámované
 Vyplníme list POST - body dle vzoru níže:
 ![postBodyVBA](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/POST-bodyVBA.png)
 
-Kde sloupce B a C odpovídají tělu requestu v Postmanu
+Kde sloupce B a C odpovídají tělu requestu v Postmanu. Sloupec A odpovídá atributům z DB.
 ![bodyPostman](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/postManBodyVzor.png) <br>
 <br>
 Pro testování je však zapotřebí vytvořit jedinečnou sadu hodnot.  
