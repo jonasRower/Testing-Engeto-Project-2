@@ -46,7 +46,8 @@ Pro testování je však zapotřebí vytvořit jedinečnou sadu hodnot.
 
 <details>
 <summary>Nastavení složky s daty z DB</summary>
-Je potřeba tedy ověřit, že data ve sloupci C nejsou duplicitní k datům exportovaným z DB. Exportujeme tedy data z DB dle postupu
+Je potřeba tedy ověřit, že data ve sloupci C nejsou duplicitní k datům exportovaným z DB. Exportujeme tedy data z DB dle postupu 
+[Jak odblokovat makra](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/odblok_Makro_VBA.md) <br>
 [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/export_DB.md)
 
 </details>
