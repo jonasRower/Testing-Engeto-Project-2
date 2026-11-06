@@ -42,13 +42,23 @@ Kde sloupce B a C odpovídají tělu requestu v Postmanu. Sloupec A odpovídá a
 <br>
 
 ### Vytvoření sady jedinečných hodnot
-Pro testování je však zapotřebí vytvořit jedinečnou sadu hodnot.  
+Pro testování je však zapotřebí vytvořit jedinečnou sadu hodnot. Je potřeba tedy ověřit, že data ve sloupci C nejsou duplicitní k datům exportovaným z DB. 
 
 <details>
 <summary>Nastavení složky s daty z DB</summary>
 
-Je potřeba tedy ověřit, že data ve sloupci C nejsou duplicitní k datům exportovaným z DB. <br>
+Postup exportování dat z DB popisujeme
 [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/export_DB.md) <br>
+
+Poté je potřeba nastavit složku s cestou s exportovanými csv soubory. Lze zadat jakoukoliv nadřazenou složku. Program vyhledá všechny csv soubory, které jsou názvu [název tabulky]_datum čas.csv. <br>
+Adresu nadřazené složky můžeme překopírovat pomocí Ctrl+C a Ctrl+V z průzkumníku složek, nebo složku vybrat pomocí tlačítka
+![slozkaButt](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/slozkaButtt.png)
+
+
+
+
+Záznamy těchto tabulek porovná s hodnotami ve sloupci C.
+
 
  
 </details>
