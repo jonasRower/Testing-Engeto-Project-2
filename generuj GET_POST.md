@@ -53,15 +53,17 @@ Postup exportování dat z DB popisujeme
 Poté je potřeba nastavit složku s cestou s exportovanými csv soubory. Lze zadat jakoukoliv nadřazenou složku. Program vyhledá všechny csv soubory, které jsou názvu [název tabulky]_datum čas.csv. <br>
 Adresu nadřazené složky můžeme překopírovat pomocí Ctrl+C a Ctrl+V z průzkumníku složek, nebo složku vybrat pomocí tlačítka
  ![slozkaButt](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/slozkaButtt.png)
-
-
-
-
-Záznamy těchto tabulek porovná s hodnotami ve sloupci C.
-
-
  
 </details>
+
+<details>
+<summary>Ověření duplicitnícxh dat</summary>
+Po stisku tlačítka "Vytvor unikatni testovaci data" se záznamy všech těchto tabulek, uloženými na adrese výše, porovnají s hodnotami ve sloupci C.
+Nalezne-li program shodná data ve sloupci C s daty vyexportovanými z DB, pak se zeptá uživatele, zda hodnotu smí přečíslovat. Po stisku na tlačítko "Ano" se hodnota přečísluje.
+ 
+![precisluj](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/unikatniDataTest.png)
+
+
 
 </details>
 
