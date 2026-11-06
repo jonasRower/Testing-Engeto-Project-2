@@ -50,6 +50,7 @@ Pro testování je však zapotřebí vytvořit jedinečnou sadu hodnot. Je potř
 <summary>Nastavení složky s daty z DB</summary>
 <br>
 Postup exportování dat z DB popisujeme
+ 
 [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/export_DB.md) <br>
 
 Poté je potřeba nastavit složku s cestou s exportovanými csv soubory. Lze zadat jakoukoliv nadřazenou složku. Program vyhledá všechny csv soubory, které jsou názvu [název tabulky]_datum čas.csv. <br>
