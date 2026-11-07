@@ -1,1 +1,3 @@
+## Porovnání výsledků GET - postup.
+
 
