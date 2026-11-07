@@ -85,7 +85,7 @@ Po vygenerování a nahrání jsonu do Postmanu, může request metody POST vypa
 ![postmanPost](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/postmanPOST.png)
 
 <details>
-<summary>Algoritmus generování kombinací.</summary>
+<summary>Logika generovaných kombinací.</summary>
 <br>
 Jednotlivé řádky na listu "kombinatorika" představují jednotlivé kombinace vstupů. Lze si povšimnout prvního řádku: <br>
 
@@ -118,8 +118,19 @@ Nazev kombinace  | firstName   | lastName   |  email          |  isEuCitizen |  
 -------------    | ----------- | --------   |  -----          |  ----------- |  -------  |  ---------------------
 1-0-0-0-0-1	     | jonas-923_2   | sobota   |  jb.jb@sob2.jb-1          |  PRAVDA |  10 2  |  17
 
-zde, ačkoliv hodnota v kombinaci u atributu firstName je symbolizována hodnotou 1 (1-0-0-0-0-1), tudíž hodnota u atributu firstName by měla být unikátní též, v žádném vyšším řádku neužita, proto na rozdíl od řádku 34 uvažuje hodnotu jonas-923_2. <br><br>
+Zde, ačkoliv hodnota v kombinaci u atributu firstName je symbolizována hodnotou 1 (1-0-0-0-0-1), tudíž hodnota u atributu firstName by měla být unikátní též, v žádném vyšším řádku neužita, proto na rozdíl od řádku 34 uvažuje hodnotu jonas-923_2. <br><br>
 
+</details>
+
+
+<details>
+<summary>Algoritmus generování kombinací.</summary>
+Generujeme jednotlivé requesty tak, aby hodnota v těle requestu byla buď unikátní, nebo již opakující se. Opakující se hodnota je symbolizována hodnotou 0, unikátní hodnota je symbolizována hodnotou 1. <br>
+Jednotlivé hodnoty v Názvu kombinace (1 nebo 0) jsou, pro lepší přehlednost odděleny pomlčkami (-). <br>
+Defacto bez pomlček se jedná o následující čísla typu Integer: <br>
+Nazev kombinace (String) | Číslo ve dvojkové soustavě | Číslo v dekadické soustavě
+-------------            | -----------                | --------   
+0-0-0-0-0-0	             | 0                          | 1   
 
 
 
