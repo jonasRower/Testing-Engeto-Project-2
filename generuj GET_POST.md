@@ -90,3 +90,6 @@ Stiskem tlačítka "Generuj requesty do jsonu" vygenerujeme json.
 
 Umístění generovaného souboru v počítači nalezneme na adrese, kterou jsme zadali na list "request" do buňky F2
 ![nadrSlozka](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/nadrazenSlozka.png)
+
+Soubor jsme vygenerovali s názvem GET_POST.json
+![getPostJson](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/ResponsesPostman.png)
