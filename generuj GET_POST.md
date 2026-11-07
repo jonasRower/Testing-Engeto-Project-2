@@ -84,6 +84,15 @@ Stisknutím tlačítka "Kombinuj requesty POST" se vytvoří kombinace jednotliv
 Po vygenerování a nahrání jsonu do Postmanu, může request metody POST vypadat následovně:
 ![postmanPost](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/postmanPOST.png)
 
+<details>
+<summary>Algoritmus generování kombinací.</summary>
+<br>
+Jednotlivé řádky na listu "kombinatorika" představují jednotlivé kombinace vstupů. Lze si povšimnout:
+| Attempt | #1    | #2    |
+| :---:   | :---: | :---: |
+| Seconds | 301   | 283   |
+
+</details>
 
 <br>
 
