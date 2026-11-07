@@ -81,3 +81,5 @@ Stisknutím tlačítka "Kombinuj requesty POST" se vytvoří kombinace jednotliv
 ![kombinatorika](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/kombinatorika.png)
 
 ### Vygenerování jsonu do Postmanu
+Stiskem tlačítka "Generuj requesty do jsonu" vygenerujeme json.
+![genJson](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/genJson.png)
