@@ -78,7 +78,11 @@ Potvrdili jsme "Ano" a duplicitní hodnoty se přečíslovali, viz obr níže, s
 <br><br>
 ### Kombinatorika jedinečných hodnot
 Stisknutím tlačítka "Kombinuj requesty POST" se vytvoří kombinace jednotlivých requestů metody POST. Všechny vytvořené kombinace jsou vygenerovány na list "kombinatorika"
-![kombinatorika](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/kombinatorika.png)
+![kombinatorika](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/kombinatorika.png) <br>
+
+Umístění generovaného souboru v počítači nalezneme na adrese, kterou jsme zadali na list "request" do buňky F2
+
+
 
 </details>
 <br>
