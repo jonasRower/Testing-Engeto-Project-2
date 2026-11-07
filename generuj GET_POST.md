@@ -87,19 +87,40 @@ Po vygenerování a nahrání jsonu do Postmanu, může request metody POST vypa
 <details>
 <summary>Algoritmus generování kombinací.</summary>
 <br>
-Jednotlivé řádky na listu "kombinatorika" představují jednotlivé kombinace vstupů. Lze si povšimnout: <br>
-Nazev kombinace | firstName    | lastName   |  email          |  isEuCitizen |  zipCode  |  numberOfFailedStudies
---------------- | ---------    | --------   | --------------- | ------------ | --------  |  ---------------------
-0-0-0-0-0-0	    | jonas-923	   | sobota	    | jb.jb@sob2.jb-1 |	PRAVDA	      | 10 2	     | 0                      
-
+Jednotlivé řádky na listu "kombinatorika" představují jednotlivé kombinace vstupů. Lze si povšimnout prvního řádku: <br>
 
 Nazev kombinace  | firstName   | lastName   |  email          |  isEuCitizen |  zipCode  |  numberOfFailedStudies
 -------------    | ----------- | --------   |  -----          |  ----------- |  -------  |  ---------------------
 0-0-0-0-0-0	     | jonas-923   | sobota   |  jb.jb@sob2.jb-1          |  PRAVDA |  10 2  |  0
 
+Zde se tedy jedná o generovaná unikátní data.   <br> <br>
+
+Druhý řádek pak vypadá následovně: <br>
+Nazev kombinace  | firstName   | lastName   |  email          |  isEuCitizen |  zipCode  |  numberOfFailedStudies
+-------------    | ----------- | --------   |  -----          |  ----------- |  -------  |  ---------------------
+0-0-0-0-0-1	     | jonas-923   | sobota   |  jb.jb@sob2.jb-1          |  PRAVDA |  10 2  |  1
+
+Změnila se nám hodnota pouze u atributu "numberOfFailedStudies" z 0 na 1. Kombinace na daném řádku je totiž: <br>
+0-0-0-0-0-1	 <br>
+
+kde hodnota (v kombinaci) = 0 symbolizuje, že hodnota je hodnotou původní, <br>
+zatímco hodnota = 1 symbolizuje, že se jedná o hodnotu originální, tzn. v žádné předchozí kombinaci se nevyskytuje. <br><br>
+
+Podíváme-li se např. na řádek 34 pak hodnoty jsou následující: <br>
+Nazev kombinace  | firstName   | lastName   |  email          |  isEuCitizen |  zipCode  |  numberOfFailedStudies
+-------------    | ----------- | --------   |  -----          |  ----------- |  -------  |  ---------------------
+1-0-0-0-0-0	     | jonas-923_1   | sobota   |  jb.jb@sob2.jb-1          |  PRAVDA |  10 2  |  0
+
+zde se změnila pouze hodnota u atributu firstName, ostatní zůstaly stejné. Hodnota u atributu firstName je jonas-923_1. <br><br>
+
+Řádek 35 pak ukazuje: <br>
+Nazev kombinace  | firstName   | lastName   |  email          |  isEuCitizen |  zipCode  |  numberOfFailedStudies
+-------------    | ----------- | --------   |  -----          |  ----------- |  -------  |  ---------------------
+1-0-0-0-0-1	     | jonas-923_2   | sobota   |  jb.jb@sob2.jb-1          |  PRAVDA |  10 2  |  17
+
+zde, ačkoliv hodnota v kombinaci u atributu firstName je symbolizována hodnotou 1 (1-0-0-0-0-1), tudíž hodnota u atributu firstName by měla být originální též, v žádném vyšším řádku neužita, proto na rozdíl od řádku 34 uvažuje hodnotu jonas-923_2. <br><br>
 
 
-Zde se tedy jedná o generovaná unikátní data
 
 
 </details>
