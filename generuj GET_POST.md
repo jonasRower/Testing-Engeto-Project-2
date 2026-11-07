@@ -128,6 +128,15 @@ Zde, ačkoliv hodnota v kombinaci u atributu firstName je symbolizována hodnoto
 Generujeme jednotlivé requesty tak, aby hodnota v těle requestu byla buď unikátní, nebo již opakující se. Opakující se hodnota je symbolizována hodnotou 0, unikátní hodnota je symbolizována hodnotou 1. <br>
 Jednotlivé hodnoty v Názvu kombinace (1 nebo 0) jsou, pro lepší přehlednost odděleny pomlčkami (-). <br>
 Defacto bez pomlček se jedná o následující čísla typu Integer: <br>
+
+
+Nazev kombinace  | firstName   | lastName   |  email          |  isEuCitizen |  zipCode  |  numberOfFailedStudies
+-------------    | ----------- | --------   |  -----          |  ----------- |  -------  |  ---------------------
+1-0-0-0-0-1	     | jonas-923_2   | sobota   |  jb.jb@sob2.jb-1          |  PRAVDA |  10 2  |  17
+
+<br><br>
+
+ 
 Nazev kombinace (String) | Číslo ve dvojkové soustavě | Číslo v dekadické soustavě
 -------------            | -----------                | --------   
 0-0-0-0-0-0	             | 0                          | 1   
