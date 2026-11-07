@@ -74,6 +74,7 @@ Potvrdili jsme "Ano" a duplicitní hodnoty se přečíslovali, viz obr níže, s
 ![precisl](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/hodnZmenene.png)
 
 </details>
+</details>
 
 <br><br>
 ### Kombinatorika jedinečných hodnot
@@ -81,7 +82,7 @@ Stisknutím tlačítka "Kombinuj requesty POST" se vytvoří kombinace jednotliv
 ![kombinatorika](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/kombinatorika.png) <br>
 
 
-</details>
+
 <br>
 
 ### Vygenerování jsonu do Postmanu
