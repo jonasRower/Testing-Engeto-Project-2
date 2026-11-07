@@ -127,21 +127,31 @@ Zde, ačkoliv hodnota v kombinaci u atributu firstName je symbolizována hodnoto
 <summary>Algoritmus generování kombinací.</summary> <br>
 Generujeme jednotlivé requesty tak, aby hodnota v těle requestu byla buď unikátní, nebo již opakující se. Opakující se hodnota je symbolizována hodnotou 0, unikátní hodnota je symbolizována hodnotou 1. <br><br>
 Jednotlivé hodnoty v Názvu kombinace (1 nebo 0) jsou, pro lepší přehlednost odděleny pomlčkami (-). <br>
-Defacto bez pomlček se jedná o následující čísla typu Integer: <br>
+Defacto bez pomlček se jedná o řadu čísel v binární soustavě: <br><br>
 
 
 Nazev kombinace (String)  | Číslo v binární soustavě   | Číslo v dekadické soustavě         
 -------------    | ----------- | --------          
-1-0-0-0-0-0	     | 0           | 0           
+0-0-0-0-0-0	     | 0           | 0        
+0-0-0-0-0-1	     | 1           | 1     
+0-0-0-0-1-0	     | 10           | 2     
+0-0-0-0-1-1	     | 11           | 3   
+0-0-0-1-0-0	     | 100           | 4  
+0-0-0-1-0-1	     | 101           | 5  
+0-0-0-1-1-0	     | 110           | 6  
+0-0-0-1-1-1     | 111           | 7 
+...     | ...           | ...
+1-0-0-0-0-0	     | 100000           | 32  
+...     | ...           | ...
+1-1-1-1-1-1	     | 111111           | 63 
 
 <br><br>
 
- 
-Nazev kombinace (String) | Číslo ve dvojkové soustavě | Číslo v dekadické soustavě
--------------            | -----------                | --------   
-0-0-0-0-0-0	             | 0                          | 1   
+Vzhledem ke skutečnosti, že je potřeba kombinovat jednotlivé sloupce tabulky: <br>
+firstName   | lastName   |  email          |  isEuCitizen |  zipCode  |  numberOfFailedStudies
+----------- | --------   |  -----          |  ----------- |  -------  |  ---------------------
 
-
+A daných sloupců je celkem 6, pak se jedná o 2^6 kombinací. Tj. 64 kombinací. Vzhledem k situaci, že první kombinace má označení 0 , pak poslední kombinace v dekadické soustavě = 63.
 
 </details>
 
