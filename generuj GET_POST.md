@@ -89,7 +89,7 @@ Po vygenerování a nahrání jsonu do Postmanu, může request metody POST vypa
 <br>
 Jednotlivé řádky na listu "kombinatorika" představují jednotlivé kombinace vstupů. Lze si povšimnout: <br>
 | Nazev kombinace | firstName    | lastName   |  email          |  isEuCitizen |  zipCode  |  numberOfFailedStudies |
-| 0-0-0-0-0-0	    | jonas-923	   | sobota	    | jb.jb@sob2.jb-1 |	PRAVDA	      | 10 2	     | 0
+| 0-0-0-0-0-0	    | jonas-923	   | sobota	    | jb.jb@sob2.jb-1 |	PRAVDA	      | 10 2	     | 0                      | 
 
 Zde se tedy jedná o generovaná unikátní data
 
