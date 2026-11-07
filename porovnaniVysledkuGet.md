@@ -11,5 +11,8 @@ Všechny data jsou uložena ve složce [zde](https://github.com/jonasRower/Testi
 4. Klikneme na tlačítko "Načti - Porovnej - Ulož data". Načtou se data na list "compare csv & json". Program nás vyzve, abychom upravili počet sloupců. Pro další porovnání musí být počet sloupců shodný.
 5. Upravíme počet sloupců. Do buňky na řádku 2 vyplníme název námi přidaného sloupce. Přidaný sloupec můžeme ponechat prázdný.
 6. Na Listu "PROGRAM" Stiskneme tlačítko "Porovnej csv & json". Program porovná data a uloží je do souboru dané složky s názvem složky+.xls. Soubor je uložen [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/results_tests/GET/GET.xlsx)
+<br><br>
+Manuál ve verzi pdf je zde : <br>
+[Popis nástroje pro porovnávání výsledků testů](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Tools/Compare%20csv%20%26%20json/Porovn%C3%A1v%C3%A1n%C3%AD%20tabulek.pdf)
 
 
