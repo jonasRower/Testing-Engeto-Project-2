@@ -130,9 +130,9 @@ Jednotlivé hodnoty v Názvu kombinace (1 nebo 0) jsou, pro lepší přehlednost
 Defacto bez pomlček se jedná o následující čísla typu Integer: <br>
 
 
-Nazev kombinace  | firstName   | lastName   |  email         
--------------    | ----------- | --------   |  -----          
-1-0-0-0-0-1	     | jonas-923_2   | sobota   |  jb.jb@sob2.jb-1         
+Nazev kombinace  | firstName   | lastName         
+-------------    | ----------- | --------          
+1-0-0-0-0-1	     | jonas-923_2   | sobota           
 
 <br><br>
 
