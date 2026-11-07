@@ -91,6 +91,11 @@ Jednotlivé řádky na listu "kombinatorika" představují jednotlivé kombinace
 | Nazev kombinace | firstName    | lastName   |  email          |  isEuCitizen |  zipCode  |  numberOfFailedStudies |
 | 0-0-0-0-0-0	    | jonas-923	   | sobota	    | jb.jb@sob2.jb-1 |	PRAVDA	      | 10 2	     | 0                      | 
 
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+
 Zde se tedy jedná o generovaná unikátní data
 
 
