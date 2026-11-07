@@ -81,6 +81,8 @@ Potvrdili jsme "Ano" a duplicitní hodnoty se přečíslovali, viz obr níže, s
 Stisknutím tlačítka "Kombinuj requesty POST" se vytvoří kombinace jednotlivých requestů metody POST. Všechny vytvořené kombinace jsou vygenerovány na list "kombinatorika"
 ![kombinatorika](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/kombinatorika.png) <br>
 
+Po vygenerování a nahrání jsonu do Postmanu, může request metody POST vypadat následovně:
+![postmanPost](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/postmanPOST.png)
 
 
 <br>
