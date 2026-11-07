@@ -11,3 +11,6 @@ Postupujeme následujícími kroky: <br>
    <br>
    Requesty jsou uložené [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Requests%20Postman/GET_POST.json) .
    <br>
+3. Provedeme všechny requesty GET
+4. Uložíme všechny odezvy proběhnutých requestů, do stejné složky, kam jsme uložili export z DB z bodu 1. <br> Příslušná složka je [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/tree/main/results_tests/GET)
+   
