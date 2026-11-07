@@ -13,4 +13,5 @@ Postupujeme následujícími kroky: <br>
    <br>
 3. Provedeme všechny requesty GET
 4. Uložíme všechny odezvy proběhnutých requestů, do stejné složky, kam jsme uložili export z DB z bodu 1. <br> Příslušná složka je [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/tree/main/results_tests/GET)
+5. Stáhneme program na porovnávání výsledků [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Tools/Compare%20csv%20%26%20json/jsons_Csv_Comparator.xlsm). Před spuštěním je potřeba odblokovat makra, můžeme postupovat dle manuálu zde: 
    
