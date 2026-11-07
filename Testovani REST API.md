@@ -217,7 +217,10 @@ Json s requesty GET + POST je umístěn
 ... tabulka + jsonz jsou zde...
 
 Import requestů do Postmanu, provedeme dle návodu,
-[zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/import_Json_Postman.md)
+[import](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/import_Json_Postman.md)
+
+Samotné porovnání výsledků testu provedeme dle manuálu
+[porovnani vysledku](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/porovnaniVysledkuGet.md)
 
 
 
