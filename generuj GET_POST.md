@@ -130,9 +130,9 @@ Jednotlivé hodnoty v Názvu kombinace (1 nebo 0) jsou, pro lepší přehlednost
 Defacto bez pomlček se jedná o následující čísla typu Integer: <br>
 
 
-Nazev kombinace  | firstName   | lastName         
+Nazev kombinace (String)  | Číslo ve dvojkové soustavě   | Číslo v dekadické soustavě         
 -------------    | ----------- | --------          
-1-0-0-0-0-1	     | jonas-923_2   | sobota           
+1-0-0-0-0-0	     | jonas-923_2   | sobota           
 
 <br><br>
 
