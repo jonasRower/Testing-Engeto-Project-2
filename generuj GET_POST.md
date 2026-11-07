@@ -80,9 +80,6 @@ Potvrdili jsme "Ano" a duplicitní hodnoty se přečíslovali, viz obr níže, s
 Stisknutím tlačítka "Kombinuj requesty POST" se vytvoří kombinace jednotlivých requestů metody POST. Všechny vytvořené kombinace jsou vygenerovány na list "kombinatorika"
 ![kombinatorika](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/kombinatorika.png) <br>
 
-Umístění generovaného souboru v počítači nalezneme na adrese, kterou jsme zadali na list "request" do buňky F2
-
-
 
 </details>
 <br>
@@ -90,3 +87,6 @@ Umístění generovaného souboru v počítači nalezneme na adrese, kterou jsme
 ### Vygenerování jsonu do Postmanu
 Stiskem tlačítka "Generuj requesty do jsonu" vygenerujeme json.
 ![genJson](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/genJson.png)
+
+Umístění generovaného souboru v počítači nalezneme na adrese, kterou jsme zadali na list "request" do buňky F2
+![nadrSlozka](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/nadrazenSlozka.png)
