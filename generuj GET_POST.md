@@ -93,9 +93,9 @@ Nazev kombinace | firstName    | lastName   |  email          |  isEuCitizen |  
 0-0-0-0-0-0	    | jonas-923	   | sobota	    | jb.jb@sob2.jb-1 |	PRAVDA	      | 10 2	     | 0                      
 
 
-Nazev kombinace  | firstName  
--------------    | -----------
-0-0-0-0-0-0	     | jonas-923
+Nazev kombinace  | firstName   | lastName   |  email          |  isEuCitizen |  zipCode  |  numberOfFailedStudies
+-------------    | ----------- | --------   |  -----          |  ----------- |  -------  |  ---------------------
+0-0-0-0-0-0	     | jonas-923   | lastName   |  email          |  isEuCitizen |  zipCode  |  numberOfFailedStudies
 
 
 
