@@ -212,7 +212,8 @@ Pro vygenerování requestů, můžeme postupovat dle návodu
 
 [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/generuj%20GET_POST.md)
 
-[Requesty GET+POST - Postman](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Requests%20Postman/GET_POST.json) 
+Json s requesty GET + POST je umístěn zde
+[zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Requests%20Postman/GET_POST.json) 
 ... tabulka + jsonz jsou zde...
 
 
