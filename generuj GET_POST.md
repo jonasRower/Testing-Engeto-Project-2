@@ -104,7 +104,7 @@ Změnila se nám hodnota pouze u atributu "numberOfFailedStudies" z 0 na 1. Komb
 0-0-0-0-0-1	 <br>
 
 kde hodnota (v kombinaci) = 0 symbolizuje, že hodnota je hodnotou původní, <br>
-zatímco hodnota = 1 symbolizuje, že se jedná o hodnotu originální, tzn. v žádné předchozí kombinaci se nevyskytuje. <br><br>
+zatímco hodnota = 1 symbolizuje, že se jedná o hodnotu unikátní, tzn. v žádné předchozí kombinaci se nevyskytuje. <br><br>
 
 Podíváme-li se např. na řádek 34 pak hodnoty jsou následující: <br>
 Nazev kombinace  | firstName   | lastName   |  email          |  isEuCitizen |  zipCode  |  numberOfFailedStudies
@@ -118,7 +118,7 @@ Nazev kombinace  | firstName   | lastName   |  email          |  isEuCitizen |  
 -------------    | ----------- | --------   |  -----          |  ----------- |  -------  |  ---------------------
 1-0-0-0-0-1	     | jonas-923_2   | sobota   |  jb.jb@sob2.jb-1          |  PRAVDA |  10 2  |  17
 
-zde, ačkoliv hodnota v kombinaci u atributu firstName je symbolizována hodnotou 1 (1-0-0-0-0-1), tudíž hodnota u atributu firstName by měla být originální též, v žádném vyšším řádku neužita, proto na rozdíl od řádku 34 uvažuje hodnotu jonas-923_2. <br><br>
+zde, ačkoliv hodnota v kombinaci u atributu firstName je symbolizována hodnotou 1 (1-0-0-0-0-1), tudíž hodnota u atributu firstName by měla být unikátní též, v žádném vyšším řádku neužita, proto na rozdíl od řádku 34 uvažuje hodnotu jonas-923_2. <br><br>
 
 
 
