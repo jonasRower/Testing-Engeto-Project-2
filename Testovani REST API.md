@@ -209,6 +209,8 @@ Použili jsme vlastní nástroj: <br>
 
 <summary>GET</summary>
 
+Příprava testovacích dat, je pro metody GET a POST stejná. 
+
 Pro vygenerování requestů, můžeme postupovat dle návodu,
 [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/generuj%20GET_POST.md) 
 
