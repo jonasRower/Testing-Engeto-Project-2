@@ -209,6 +209,7 @@ Použili jsme vlastní nástroj: <br>
 
 <summary>GET</summary>
 Pomocí nástroje jsme vygenerovali requesty do Postmanu. Requesty jsou uložené zde: <br>
+
 [Requesty GET+POST - Postman](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Requests%20Postman/GET_POST.json) 
 ... tabulka + jsonz jsou zde...
 
