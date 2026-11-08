@@ -18,8 +18,8 @@ Budeme provádět 2 druhy testů:
    3. Otevřeme soubor
    4. Na Listu "PROGRAM" do buňky A2 vyplníme adresu složky odkud budeme načítat data. Případně lze i vybrat složku klikem na Tlačítko "Složka".
    5. Klikneme na tlačítko "Načti - Porovnej - Ulož data". Jelikož program detekoval 2 soubory csv, které jsou generovány z téže tabulky, nepředpokládá se, že je třeba upravovat jednotlivé sloupce tabulky. Program tedy automaticky porovná data a uloží je do souboru dané složky s názvem složky+.xls. Soubor je uložen [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/results_tests/POST/POST.xlsx)
+<br>
 
-<br><br>
 Manuál ve verzi pdf je zde : <br>
 [Popis nástroje pro porovnávání výsledků testů](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Tools/Compare%20csv%20%26%20json/Porovn%C3%A1v%C3%A1n%C3%AD%20tabulek.pdf)
 </details>
