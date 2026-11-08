@@ -238,7 +238,7 @@ Postup, jakým jsme spustili testy v Postmanu je zde:
 
 
 Samotné porovnání výsledků testu provedeme dle manuálu
-[porovnani vysledku POST](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/porovnaniVysledkuGet.md)
+[porovnani vysledku POST](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/porovnaniVysledkuPost.md)
 
 [vysledky testu POST](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/vysledky_Testu_GET.md)
 
