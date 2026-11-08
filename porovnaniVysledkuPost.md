@@ -24,7 +24,12 @@ Budeme provádět 2 druhy testů:
 
 <summary>Porovnání generovaných kombinací a skutečně vytvořenými záznamy v DB.</summary>
 
-   Navážeme na postup [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/generuj%20GET_POST.md)
+   1. Před započetím testu si stáhneme data z DB, dle manuálu [export z DB](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/export_DB.md)
+   2. Navážeme na postup [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/generuj%20GET_POST.md).
+   Uložíme list "kombinatorika do samostatného souboru, pojmenovali jsme soubor kombinace.xlsx. Soubor uložíme do stejné složky, do které jsme uložili soubor csv v bodě 1.
+   
+   
+   
 </details>
 
 
