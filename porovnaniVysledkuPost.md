@@ -2,10 +2,16 @@
 
 Budeme provádět 2 druhy testů:
 
-Porovnání exportovaných dat z DB před testem a po testu. <br>
-Porovnání generovaných kombinací a skutečně vytvořenými záznamy v DB. <br>
+1. Porovnání exportovaných dat z DB před testem a po testu. 
+2. Porovnání generovaných kombinací a skutečně vytvořenými záznamy v DB.
 
+<details>
 
+<summary>Exportovaná data před a po testu</summary>
+
+   Před započetím testu si stáhneme data z DB, dle manuálu [export z DB](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/export_DB.md)
+
+</details>
 
 
 
