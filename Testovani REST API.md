@@ -209,7 +209,11 @@ Použili jsme vlastní nástroj: <br>
 
 <summary>GET</summary>
 
-Příprava testovacích dat, je pro metody GET a POST je stejná, [postup](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/pripravaDatGETPOST.md) .
+Příprava testovacích dat, pro metody GET a POST je stejná, [postup](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/pripravaDatGETPOST.md) .
+
+Postup, jakým jsme spustili testy v Postmanu je zde:
+
+
 
 Samotné porovnání výsledků testu provedeme dle manuálu
 [porovnani vysledku GET](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/porovnaniVysledkuGet.md)
