@@ -27,7 +27,7 @@ Budeme provádět 2 druhy testů:
    1. Před započetím testu si stáhneme data z DB, dle manuálu [export z DB](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/export_DB.md)
    2. Navážeme na postup [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/generuj%20GET_POST.md).
    Uložíme list "kombinatorika do samostatného souboru, pojmenovali jsme soubor kombinace.xlsx. Soubor uložíme do stejné složky, do které jsme uložili soubor csv v bodě 1.
-   3. Stáhneme soubor [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Tools/vyhledejId/vyhledejId.xlsm)
+   3. Stáhneme soubor [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Tools/vyhledejId/vyhledejId.xlsm). Před spuštěním je potřeba odblokovat makra, můžeme postupovat dle manuálu [jak odblokovat makra](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/odblok_Makro_VBA.md).
    
    
    
