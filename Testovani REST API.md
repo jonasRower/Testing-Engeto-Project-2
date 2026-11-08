@@ -220,6 +220,12 @@ Samotné porovnání výsledků testu provedeme dle manuálu
 
 [vysledky testu GET](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/vysledky_Testu_GET.md)
 
+</details>
+
+
+<details>
+
+<summary>POST</summary>
 
 
 </details>
