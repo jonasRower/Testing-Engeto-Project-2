@@ -209,6 +209,8 @@ Použili jsme vlastní nástroj: <br>
 
 <summary>GET</summary>
 
+Před započetím testu si vyexportujeme tabulku z DB, dle manuálu [export z DB](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/export_DB.md)
+
 Příprava testovacích dat, pro metody GET a POST je stejná, [postup](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/pripravaDatGETPOST.md) .
 
 Postup, jakým jsme spustili testy v Postmanu je zde:
