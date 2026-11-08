@@ -23,7 +23,7 @@ Budeme provádět 2 druhy testů:
 <details>
 
 <summary>Porovnání generovaných kombinací a skutečně vytvořenými záznamy v DB.</summary>
-   Navážeme na postup 
+   Navážeme na postup [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/generuj%20GET_POST.md)
 </details>
 
 
