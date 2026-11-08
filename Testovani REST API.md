@@ -229,6 +229,19 @@ Samotné porovnání výsledků testu provedeme dle manuálu
 
 <summary>POST</summary>
 
+Před započetím testu si vyexportujeme tabulku z DB, dle manuálu [export z DB](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/export_DB.md)
+
+Příprava testovacích dat, pro metody GET a POST je stejná, [postup](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/pripravaDatGETPOST.md) .
+
+Postup, jakým jsme spustili testy v Postmanu je zde:
+[Jak spustit Postman hromadne](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/jak_Spustit_Postman_Hromadne.md)
+
+
+Samotné porovnání výsledků testu provedeme dle manuálu
+[porovnani vysledku POST](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/porovnaniVysledkuGet.md)
+
+[vysledky testu POST](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/vysledky_Testu_GET.md)
+
 
 </details>
 
