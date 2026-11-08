@@ -17,7 +17,7 @@ Budeme provádět 2 druhy testů:
    2.  Stáhneme program na porovnávání výsledků [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Tools/Compare%20csv%20%26%20json/jsons_Csv_Comparator.xlsm). Před spuštěním je potřeba odblokovat makra, můžeme postupovat dle manuálu [jak odblokovat makra](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/odblok_Makro_VBA.md)
    3. Otevřeme soubor
    4. Na Listu "PROGRAM" do buňky A2 vyplníme adresu složky odkud budeme načítat data. Případně lze i vybrat složku klikem na Tlačítko "Složka".
-   5. Klikneme na tlačítko "Načti - Porovnej - Ulož data". Jelikož program detekoval 2 soubory csv, které jsou generovány z téže tabulky, nepředpokládá se, že je třeba upravovat jednotlivé sloupce tabulky. Program tedy automaticky porovná data a uloží je do souboru dané složky s názvem složky+.xls.
+   5. Klikneme na tlačítko "Načti - Porovnej - Ulož data". Jelikož program detekoval 2 soubory csv, které jsou generovány z téže tabulky, nepředpokládá se, že je třeba upravovat jednotlivé sloupce tabulky. Program tedy automaticky porovná data a uloží je do souboru dané složky s názvem složky+.xls. Soubor je uložen [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/results_tests/POST/POST.xlsx)
 </details>
 
 
