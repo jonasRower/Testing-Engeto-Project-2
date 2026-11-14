@@ -27,3 +27,11 @@ Očekávám názvy sloupců tabulky students v DBeaveru shodné s názvy klíč�
 | Název sloupce tabulky "isEuCitizen"  | GET : https://test-app.engeto.cz/students/39  | select * from students where isEuCitizen = True  | SQL Error [42703]: ERROR: column "iseucitizen" does not exist  | 200 | Failed |
 | Název sloupce tabulky "isEuCitizen"  | GET : https://test-app.engeto.cz/students/39  | select * from students where numberOfFailedStudies = 0  | SQL Error [42703]: ERROR: column "numberoffailedstudies" does not exist  | 200 | Failed |
 
+
+## Existence dat v jednotlivých záznamech v tabulce studenbts v DBeaveru
+
+Počet záznamů zjistíme SQL dotazem
+```SQL
+select MAX(id) from students;
+```
+
