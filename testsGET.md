@@ -15,7 +15,6 @@ Do Postmanu zadáme url pro metodu GET
 https://test-app.engeto.cz/students/20
 
 Postman vrací response
-vrací Response
 ```json
 {
     "id": 20,
@@ -54,7 +53,6 @@ Do Postmanu zadáme url pro metodu GET
 https://test-app.engeto.cz/students/116
 
 Postman vrací response
-vrací Response
 ```json
 {
     "id": 116,
@@ -78,6 +76,42 @@ Data ověříme provedením SQL dotazů:
 | Hodnota sloupce tabulky "number_Of_Failed_Studies"  pro "id" = 116  | GET : https://test-app.engeto.cz/students/116  | SELECT number_Of_Failed_Studies FROM students WHERE id = 116  | 0  | 200 | Passed |
 
 
+## Testování zda email musí obsahovat '@'
+
+id záznamu v DBeveru, který budeme testovat, zjistíme následujícím dotazem:
+```SQL
+SELECT min(id) FROM students where email not like '%@%'
+```
+DBeaver vrací:
+| min     |  
+| -------- |
+| 35 |
+
+
+Do Postmanu zadáme url pro metodu GET
+https://test-app.engeto.cz/students/35
+
+Postman vrací response
+```json
+{
+    "id": 35,
+    "firstName": "Marek",
+    "lastName": "Novak",
+    "email": "invalid",
+    "isEuCitizen": true,
+    "numberOfFailedStudies": 0
+}
+```
+
+Data ověříme provedením SQL dotazů:
+
+| Test     | Request  | SQL dotaz  | SQL výsledek  | Status Code  | Výsledek testu  | 
+| -------- | ------- | --------  | --------  | --------  | --------  |
+| Hodnota sloupce tabulky "email" pro "id" = 35  | GET : https://test-app.engeto.cz/students/35  | SELECT email FROM students where id = 35  | invalid | 200 | Passed |
+
+
+
+
 ## Testování zda email může začínat znakem '@'
 
 id záznamu v DBeveru, který budeme testovat, zjistíme následujícím dotazem:
@@ -91,7 +125,7 @@ DBeaver vrací:
 
 
 Do Postmanu zadáme url pro metodu GET
-https://test-app.engeto.cz/students/116
+https://test-app.engeto.cz/students/64
 
 Postman vrací response
 vrací Response
