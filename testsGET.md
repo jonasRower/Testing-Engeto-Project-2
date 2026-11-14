@@ -1,5 +1,5 @@
 # Testy GET
 
-## Testování prázdné hodnoty
+## Testování prázdné hodnoty (NULL)
 
 
