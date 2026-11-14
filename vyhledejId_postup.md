@@ -21,5 +21,10 @@ Soubor kombinace.xlsx obsahuje data:
 
 soubor jsme vytvořili manuálně, kde jsme pouze překopírovali data ze souboru získaného dle návodu [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/generuj%20GET_POST.md)
 
+<br>
+Po stisku tlačítka "Vyhledej Id a zapis do xlsx", program vytvoří složku Comparison v zadané složce s daty.
+
+![comparison](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/kombinatorikaExplorerComp.png)
+
 
 
