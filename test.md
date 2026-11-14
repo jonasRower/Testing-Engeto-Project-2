@@ -60,8 +60,8 @@ Databáze tedy v současnosti obsahuje 467 záznamů. Pokud SQL vrátí v nějak
 SELECT COUNT([název sloupce]) FROM students WHERE [název sloupce]) IS NOT NULL
 ```
 
-| Test      | SQL dotaz 1  | SQL výsledek 1  | SQL dotaz 2  | SQL výsledek 2  | Výsledek testu  | 
-| -------- | --------  | --------  | --------  | --------  | --------  |  
+| Test      | SQL dotaz 1  | SQL výsledek 1  | Vyhodnocení 1  | SQL dotaz 2  | SQL výsledek 2  | Výsledek testu  | 
+| -------- | --------  | --------  | --------  | --------  | --------  | --------  |  
 | Počet záznamů "id"  | SELECT COUNT(id) FROM students WHERE id IS NOT NULL  | 467 | SELECT COUNT(id) FROM students WHERE id = 0  | 0 | Passed |
 | Počet záznamů "first_name"  | SELECT COUNT(first_name) FROM students WHERE first_name IS NOT NULL | 467 | SELECT COUNT(first_name) FROM students WHERE first_name = ''  | 21 | Passed |
 | Počet záznamů "last_name"  | SELECT COUNT(last_name) FROM students WHERE last_name IS NOT NULL  | 398 | SELECT COUNT(last_name) FROM students WHERE last_name = ''  | 5 | Passed |
