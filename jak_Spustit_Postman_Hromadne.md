@@ -9,3 +9,6 @@ Autorizaci zadáme do vstupního pole pro danou Kolekci. Tím se autorizují vš
 V názvu Kolekce klikneme na 3 tečky (...) a po rozevření nabídky vybereme "Run".
 ![run](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/run.png)
 
+Na kartě "Runner" klikneme na "Start run"
+![startRun](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/startRun.png)
+
