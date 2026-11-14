@@ -31,6 +31,21 @@ Očekávám názvy sloupců tabulky students v DBeaveru shodné s názvy klíč�
 
 ## Existence dat v jednotlivých záznamech v tabulce students v DBeaveru
 
+Vzhledem k odezvě:
+```json
+  {
+    "id": 39,
+    "firstName": "Jan",
+    "lastName": "ŽIŽKA",
+    "email": "oko1@trocnov.cz",
+    "isEuCitizen": true,
+    "numberOfFailedStudies": 55
+}
+```
+
+By měl každý sloupec tabulky students obsahovat minimálně 1 záznam.
+
+
 Počet záznamů zjistíme SQL dotazem
 ```SQL
 select MAX(id) from students;
@@ -40,13 +55,24 @@ DBeaver vrací:
 | -------- |
 | 467 |
 
-Testuji tedy existenci dat v jednotlivých sloupcích tabulky, pomocí SQL dotazu:
+Databáze tedy v současnosti obsahuje 467 záznamů. Pokud SQL vrátí v nějakém sloupci počet záznamů = 0, pak se dané hodnoty do DB nezapisují. Testujeme SQL dotaz:
 ```SQL
 SELECT COUNT([název sloupce]) FROM students WHERE [název sloupce]) IS NOT NULL
 ```
-a očekávám hodnotu 467
+
 | Test      | SQL dotaz  | SQL výsledek  | Výsledek testu  | 
 | -------- | --------  | --------  | --------  | 
-| Počst záznamů "id"  | SELECT COUNT(id) FROM students WHERE id IS NOT NULL  | 467 | Passed |
+| Počet záznamů "id"  | SELECT COUNT(id) FROM students WHERE id IS NOT NULL  | 467 | Passed |
+| Počet záznamů "first_name"  | SELECT COUNT(first_name) FROM students WHERE first_name IS NOT NULL  | 400 | Passed |
+| Počet záznamů "last_name"  | SELECT COUNT(last_name) FROM students WHERE last_name IS NOT NULL  | 400 | Passed |
+| Počet záznamů "email"  | SELECT COUNT(email) FROM students WHERE email IS NOT NULLL  | 395 | Passed |
+| Počet záznamů "is_eu_citizen"  | SELECT COUNT(is_eu_citizen) FROM students WHERE is_eu_citizen IS NOT NULL  | 467 | Passed |
+| Počet záznamů "zip_code"  | SELECT COUNT(zip_code) FROM students WHERE zip_code IS NOT NULL  | 467 | Passed |
+| Počet záznamů "number_of_failed_studies"  | SELECT COUNT(zip_code) FROM students WHERE number_of_failed_studies IS NOT NULL  | 467 | Passed |
+
+
+
+
+
 
 
