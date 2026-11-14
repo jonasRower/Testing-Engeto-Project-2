@@ -216,6 +216,7 @@ Příprava testovacích dat, pro metody GET a POST je stejná, [postup](https://
 Postup, jakým jsme spustili testy v Postmanu je zde:
 [Jak spustit Postman hromadne](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/jak_Spustit_Postman_Hromadne.md)
 
+Stáhneme jednotlive jsons-responses. Uložené jsou [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/tree/main/results_tests/GET).
 
 Samotné porovnání výsledků testu provedeme dle manuálu
 [porovnani vysledku GET](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/porovnaniVysledkuGet.md)
