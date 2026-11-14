@@ -26,5 +26,10 @@ Po stisku tlačítka "Vyhledej Id a zapis do xlsx", program vytvoří složku Co
 
 ![comparison](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/kombinatorikaExplorerComp.png)
 
+<br>
+Výstupem programu je vygenerování xlsx a csv souboru. <br>
+Xlsx soubor obsahuje barevně označené neproběhlé testy. <br>
+Csv soubor pak slouží pro následovné porovnání dalším testem.
 
+![comparison](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/ComparisonExplorer.png)
 
