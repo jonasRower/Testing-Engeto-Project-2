@@ -2,8 +2,9 @@
 
 Budeme provádět 2 druhy testů:
 
-1. Porovnání exportovaných dat z DB před testem a po testu. 
-2. Porovnání generovaných kombinací a skutečně vytvořenými záznamy v DB.
+1. Porovnání exportovaných dat z DB před testem a po testu.
+2. Porovnání, které requesty proběhy a které neproběhly.
+3. Porovnání konzistence dat u requestů proběhlých.
 
 <details>
 
@@ -28,13 +29,10 @@ Manuál ve verzi pdf je zde : <br>
 
 <details>
 
-<summary>Porovnání generovaných kombinací a skutečně vytvořenými záznamy v DB.</summary>
+<summary>Porovnání, které requesty proběhy a které neproběhly.</summary>
 
    1. Před započetím testu si stáhneme data z DB, dle manuálu [export z DB](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/export_DB.md)
    2. Postupujeme dle manuálu [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/vyhledejId_postup.md)
-
-   
-   
    
 </details>
 
