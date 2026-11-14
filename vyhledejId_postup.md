@@ -1,1 +1,3 @@
+## Vyhodnocení proběhlých testů kombinatoriky.
+
 
