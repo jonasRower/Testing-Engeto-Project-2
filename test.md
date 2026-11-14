@@ -1,5 +1,23 @@
 ## Existence názvů sloupců tabulky students v DBeaver
 
+Request
+GET : https://test-app.engeto.cz/students/39
+
+vrací Response
+```json
+  {
+    "id": 39,
+    "firstName": "Jan",
+    "lastName": "ŽIŽKA",
+    "email": "oko1@trocnov.cz",
+    "isEuCitizen": true,
+    "numberOfFailedStudies": 55
+}
+```
+
+Očekávám názvy sloupců tabulky students v DBeaveru shodné s názvy klíčů odezvy.
+
+
 | Test     | Request  | SQL dotaz  | SQL výsledek  | Status Code  | Výsledek testu  | 
 | -------- | ------- | --------  | --------  | --------  | --------  |
 | Název sloupce tabulky "id"  | GET : https://test-app.engeto.cz/students/39  |select id from students where id = 39  | 39 | 200 | Passed |
