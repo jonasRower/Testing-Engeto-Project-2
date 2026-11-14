@@ -206,26 +206,28 @@ Schema:
 
 Pro testy metod GET + POST je postup generování testovacího scénáře stejný: <br>
 
-Před započetím testu si vyexportujeme tabulku z DB, dle manuálu [export z DB](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/export_DB.md)
+1. Před započetím testu si vyexportujeme tabulku z DB, dle manuálu [export z DB](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/export_DB.md)
 
-Příprava testovacích dat, pro metody GET a POST je stejná, [postup](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/pripravaDatGETPOST.md) .
+2. Příprava testovacích dat, pro metody GET a POST je stejná, [postup](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/pripravaDatGETPOST.md) .
 
-Postup, jakým jsme spustili testy v Postmanu je zde:
+3. Postup, jakým jsme spustili testy v Postmanu je zde:
 [Jak spustit Postman hromadne](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/jak_Spustit_Postman_Hromadne.md)
 
 ### Generované sady testů GET
 
-Samotné porovnání výsledků testu provedeme dle manuálu
+4. Samotné porovnání výsledků testu provedeme dle manuálu
 [porovnani vysledku GET](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/porovnaniVysledkuGet.md)
 
+5. Výsledky generovaných testů GET
 [vysledky testu GET](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/vysledky_Testu_GET.md)
 
 
 ### Generované sady testů POST
 
-Samotné porovnání výsledků testu provedeme dle manuálu
+4. Samotné porovnání výsledků testu provedeme dle manuálu
 [porovnani vysledku POST](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/porovnaniVysledkuPost.md)
 
+5. Výsledky generovaných testů POST
 [vysledky testu POST](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/vysledky_Testu_GET.md)
 
 ### Snmoke testy
