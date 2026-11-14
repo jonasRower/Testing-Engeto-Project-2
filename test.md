@@ -50,6 +50,7 @@ SQL dotaz 2
 ```SQL
 SELECT COUNT([název sloupce]) FROM students WHERE [název sloupce]) = ''
 ```
+Předmětem pečlivějšího následného prověřování mohou být názvy sloupců, kde počet prázdných (příp. nevyplněných) hodnot dosahují počtu záznamů.
 
 | Test      | SQL dotaz 1  | SQL výsledek 1  | Vyhodnocení 1  | SQL dotaz 2  | SQL výsledek 2   | Vyhodnocení 2  |
 | -------- | --------  | --------  | --------  | --------  | --------  | --------  |  
