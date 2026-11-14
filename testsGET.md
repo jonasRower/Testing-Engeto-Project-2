@@ -70,12 +70,12 @@ Data ověříme provedením SQL dotazů:
 
 | Test     | Request  | SQL dotaz  | SQL výsledek  | Status Code  | Výsledek testu  | 
 | -------- | ------- | --------  | --------  | --------  | --------  |
-| Hodnota sloupce tabulky "id" pro "id" = 116  | GET : https://test-app.engeto.cz/students/20  | SELECT id FROM students WHERE id = 116  | 116 | 200 | Passed |
-| Hodnota sloupce tabulky "first_Name"  pro "id" = 116  | GET : https://test-app.engeto.cz/students/20  | SELECT first_name FROM students WHERE id = 116  | ''  | 200 | Passed |
-| Hodnota sloupce tabulky "last_name"  pro "id" = 116  | GET : https://test-app.engeto.cz/students/20  | SELECT last_name FROM students WHERE id = 116  | '' | 200 | Passed |
-| Hodnota sloupce tabulky "email"  pro "id" = 116  | GET : https://test-app.engeto.cz/students/20  | SELECT email FROM students WHERE id = 116  | '' | 200 | Passed |
-| Hodnota sloupce tabulky "is_Eu_Citizen"  pro "id" = 116  | GET : https://test-app.engeto.cz/students/20  | SELECT is_Eu_Citizen FROM students WHERE id = 116  | True | 200 | Passed |
-| Hodnota sloupce tabulky "number_Of_Failed_Studies"  pro "id" = 116  | GET : https://test-app.engeto.cz/students/39  | SELECT number_Of_Failed_Studies FROM students WHERE id = 116  | 0  | 200 | Passed |
+| Hodnota sloupce tabulky "id" pro "id" = 116  | GET : https://test-app.engeto.cz/students/116  | SELECT id FROM students WHERE id = 116  | 116 | 200 | Passed |
+| Hodnota sloupce tabulky "first_Name"  pro "id" = 116  | GET : https://test-app.engeto.cz/students/116  | SELECT first_name FROM students WHERE id = 116  | ''  | 200 | Passed |
+| Hodnota sloupce tabulky "last_name"  pro "id" = 116  | GET : https://test-app.engeto.cz/students/116  | SELECT last_name FROM students WHERE id = 116  | '' | 200 | Passed |
+| Hodnota sloupce tabulky "email"  pro "id" = 116  | GET : https://test-app.engeto.cz/students/116  | SELECT email FROM students WHERE id = 116  | '' | 200 | Passed |
+| Hodnota sloupce tabulky "is_Eu_Citizen"  pro "id" = 116  | GET : https://test-app.engeto.cz/students/116  | SELECT is_Eu_Citizen FROM students WHERE id = 116  | True | 200 | Passed |
+| Hodnota sloupce tabulky "number_Of_Failed_Studies"  pro "id" = 116  | GET : https://test-app.engeto.cz/students/116  | SELECT number_Of_Failed_Studies FROM students WHERE id = 116  | 0  | 200 | Passed |
 
 
 ## Testování zda email může začínat znakem '@'
@@ -88,6 +88,29 @@ DBeaver vrací:
 | min     |  
 | -------- |
 | 64 |
+
+
+Do Postmanu zadáme url pro metodu GET
+https://test-app.engeto.cz/students/116
+
+Postman vrací response
+vrací Response
+```json
+{
+    "id": 116,
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "isEuCitizen": true,
+    "numberOfFailedStudies": 0
+}
+```
+
+Data ověříme provedením SQL dotazů:
+
+| Test     | Request  | SQL dotaz  | SQL výsledek  | Status Code  | Výsledek testu  | 
+| -------- | ------- | --------  | --------  | --------  | --------  |
+| Hodnota sloupce tabulky "email" pro "id" = 64  | GET : https://test-app.engeto.cz/students/64  | SELECT email FROM students where id = 64  | @eda.cz | 200 | Passed |
 
 
 ## Testování speciálních znaků
