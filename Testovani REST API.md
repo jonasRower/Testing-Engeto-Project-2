@@ -232,52 +232,11 @@ Pro testy metod GET + POST je postup generování testovacího scénáře stejn�
 
 ### Snmoke testy
 
-Použili jsme vlastní nástroj: <br>
-[Generování requestů do Postmanu](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Tools/Gen%20Request/Generov%C3%A1n%C3%AD%20request%C5%AF%20do%20Postmanu.pdf) <br> [Nástroj je zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Tools/Gen%20Request/gen_requests_Postman.xlsm)
+Existenci dat v DBeveru ověřujeme zde:
+[databáze](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/dataDBever.md)
 
-<details>
-
-<summary>GET</summary>
-
-Před započetím testu si vyexportujeme tabulku z DB, dle manuálu [export z DB](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/export_DB.md)
-
-Příprava testovacích dat, pro metody GET a POST je stejná, [postup](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/pripravaDatGETPOST.md) .
-
-Postup, jakým jsme spustili testy v Postmanu je zde:
-[Jak spustit Postman hromadne](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/jak_Spustit_Postman_Hromadne.md)
-
-Stáhneme jednotlive jsons-responses. Uložené jsou [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/tree/main/results_tests/GET).
-
-Samotné porovnání výsledků testu provedeme dle manuálu
-[porovnani vysledku GET](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/porovnaniVysledkuGet.md)
-
-[vysledky testu GET](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/vysledky_Testu_GET.md)
-
-</details>
-
-
-<details>
-
-<summary>POST</summary>
-
-Před započetím testu si vyexportujeme tabulku z DB, dle manuálu [export z DB](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/export_DB.md)
-
-Příprava testovacích dat, pro metody GET a POST je stejná, [postup](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/pripravaDatGETPOST.md) .
-
-Postup, jakým jsme spustili testy v Postmanu je zde:
-[Jak spustit Postman hromadne](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/jak_Spustit_Postman_Hromadne.md)
-
-
-Samotné porovnání výsledků testu provedeme dle manuálu
-[porovnani vysledku POST](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/porovnaniVysledkuPost.md)
-
-[vysledky testu POST](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/vysledky_Testu_GET.md)
-
-
-</details>
-
-
-
+Smoke testy GET
+[smoke GET](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/testsGET.md)
 
 
 
