@@ -11,6 +11,11 @@ Nástroj obsahuje jediný list s názvem "PROGRAM"
 <br>
 Do buňky A2 vyplníme cestu ke složce s daty, příp. můžeme výběr provést pomocí tlačítka "Složka ..." <br>
 
+Daná složka obsahuje soubor xlsx a tabulku csv.<br>
+Tabulku csv získáme exportem dat z DB, jak je popsáno zde...
+
+![explorer](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/kombinatorikaExplorer.png)
+
 
 
 
