@@ -97,11 +97,11 @@ Postman vrací response
 vrací Response
 ```json
 {
-    "id": 116,
-    "firstName": "",
-    "lastName": "",
-    "email": "",
-    "isEuCitizen": true,
+    "id": 64,
+    "firstName": "Jakub",
+    "lastName": "EDA",
+    "email": "@eda.cz",
+    "isEuCitizen": false,
     "numberOfFailedStudies": 0
 }
 ```
