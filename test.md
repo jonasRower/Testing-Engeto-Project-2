@@ -42,8 +42,11 @@ DBeaver vrací:
 
 Testuji tedy existenci dat v jednotlivých sloupcích tabulky, pomocí SQL dotazu:
 ```SQL
-select COUNT([název sloupce]) from students 
+select COUNT([název sloupce]) from students where [název sloupce]) is not NULL
 ```
 a očekávám hodnotu 467
+| Test      | SQL dotaz  | SQL výsledek  | Výsledek testu  | 
+| -------- | --------  | --------  | --------  | 
+| Počst záznamů "id"  | select COUNT(id) from students where id is not NULL  | 467 | Passed |
 
 
