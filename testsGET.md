@@ -147,5 +147,40 @@ Data ověříme provedením SQL dotazů:
 | Hodnota sloupce tabulky "email" pro "id" = 64  | GET : https://test-app.engeto.cz/students/64  | SELECT email FROM students where id = 64  | @eda.cz | 200 | Passed |
 
 
+## Testování zda email může končit znakem '@'
+
+id záznamu v DBeveru, který budeme testovat, zjistíme následujícím dotazem:
+```SQL
+SELECT min(id) FROM students where email like '%@'
+```
+DBeaver vrací:
+| min     |  
+| -------- |
+| 121 |
+
+
+Do Postmanu zadáme url pro metodu GET
+https://test-app.engeto.cz/students/121
+
+Postman vrací response
+vrací Response
+```json
+{
+    "id": 121,
+    "firstName": "TC_POST_06",
+    "lastName": "EMAILVALIDATION",
+    "email": "invalid.email@",
+    "isEuCitizen": false,
+    "numberOfFailedStudies": 0
+}
+```
+
+Data ověříme provedením SQL dotazů:
+
+| Test     | Request  | SQL dotaz  | SQL výsledek  | Status Code  | Výsledek testu  | 
+| -------- | ------- | --------  | --------  | --------  | --------  |
+| Hodnota sloupce tabulky "email" pro "id" = 121  | GET : https://test-app.engeto.cz/students/121  | SELECT email FROM students where id = 121  | invalid.email@ | 200 | Passed |
+
+
 ## Testování speciálních znaků
 
