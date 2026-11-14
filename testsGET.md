@@ -188,7 +188,7 @@ Pomocí SQL dotazů zjistíme existující záznamy v DB obsahující speciáln�
 
 | Speciální znak     | SQL dotaz     | nalezené id  | Request  | SQL dotaz  | SQL výsledek  | Status Code  | Výsledek testu  | 
 | -------- | ------- | --------  | --------  | --------  | --------  | --------  | --------  |
-| ?  | SELECT min(id) FROM students WHERE email LIKE '%?%' | 187 | GET : https://test-app.engeto.cz/students/187  | SELECT email FROM students WHERE id = 187   | ?? | 200 | Passed |
+| ?  | SELECT min(id) FROM students WHERE email LIKE '%?%' or first_name LIKE '%?%' or last_name LIKE '%?%' | 187 | GET : https://test-app.engeto.cz/students/187  | SELECT email FROM students WHERE id = 187   | ?? | 200 | Passed |
 | :  | SELECT min(id) FROM students WHERE email LIKE '%_%' |  | GET : https://test-app.engeto.cz/students/187  | SELECT email FROM students WHERE id =    |  | 200 | Passed |
 | ;  | SELECT min(id) FROM students WHERE email LIKE '%;%' |  | GET : https://test-app.engeto.cz/students/187  | SELECT email FROM students WHERE id =    |  | 200 | Passed |
 | (  | SELECT min(id) FROM students WHERE email LIKE '%(%' |  | GET : https://test-app.engeto.cz/students/187  | SELECT email FROM students WHERE id =    |  | 200 | Passed |
