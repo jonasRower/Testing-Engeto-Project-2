@@ -39,5 +39,10 @@ DBeaver vrací:
 | -------- |
 | 467 |
 
+Testuji tedy existenci dat v jednotlivých sloupcích tabulky, pomocí SQL dotazu:
+```SQL
+select COUNT([název sloupce]) from students 
+```
+a očekávám hodnotu 467
 
 
