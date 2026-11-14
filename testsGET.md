@@ -201,3 +201,37 @@ Pomocí SQL dotazů zjistíme existující záznamy v DB obsahující speciáln�
 | -  | SELECT min(id) FROM students WHERE email LIKE '%-%' or first_name LIKE '%-%' or last_name LIKE '%-%' | 41 | GET : https://test-app.engeto.cz/students/41  | firstName  | ' OR 1=1 --  | SELECT first_Name FROM students WHERE id = 41   | ' OR 1=1 -- | 200 | Passed |
 | +  | SELECT min(id) FROM students WHERE email LIKE '%+%' or first_name LIKE '%+%' or last_name LIKE '%+%' | NULL |   | SELECT email FROM students WHERE id =    | Klíč Response  | Hodnota Response  |  | 200 | Passed |
 
+<details>
+
+<summary>Response id = 187</summary>
+
+</details>
+
+
+<details>
+
+<summary>Response id = 200</summary>
+
+</details>
+
+
+<details>
+
+<summary>Response id = 233</summary>
+
+</details>
+
+
+<details>
+
+<summary>Response id = 148</summary>
+
+</details>
+
+
+<details>
+
+<summary>Response id = 41</summary>
+
+</details>
+
