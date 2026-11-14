@@ -35,7 +35,7 @@ Data ověříme provedením SQL dotazů:
 | Název sloupce tabulky "first_Name"  pro "id" = 20  | GET : https://test-app.engeto.cz/students/20  | SELECT first_name FROM students WHERE id = 20  | [NULL]  | 200 | Passed |
 | Název sloupce tabulky "last_name"  pro "id" = 20  | GET : https://test-app.engeto.cz/students/20  | SELECT last_name FROM students WHERE id = 20  | [NULL]  | 200 | Passed |
 | Název sloupce tabulky "email"  pro "id" = 20  | GET : https://test-app.engeto.cz/students/20  | SELECT email FROM students WHERE id = 20  | [NULL]  | 200 | Passed |
-| Název sloupce tabulky "is_Eu_Citizen"  pro "id" = 20  | GET : https://test-app.engeto.cz/students/20  | SELECT is_Eu_Citizen FROM students WHERE id = 20  | [NULL]  | 200 | Passed |
+| Název sloupce tabulky "is_Eu_Citizen"  pro "id" = 20  | GET : https://test-app.engeto.cz/students/20  | SELECT is_Eu_Citizen FROM students WHERE id = 20  | False  | 200 | Passed |
 | Název sloupce tabulky "number_Of_Failed_Studies"  pro "id" = 20  | GET : https://test-app.engeto.cz/students/39  | SELECT number_Of_Failed_Studies FROM students WHERE id = 20  | 0  | 200 | Passed |
 
 
@@ -74,5 +74,5 @@ Data ověříme provedením SQL dotazů:
 | Hodnota sloupce tabulky "first_Name"  pro "id" = 116  | GET : https://test-app.engeto.cz/students/20  | SELECT first_name FROM students WHERE id = 116  | ''  | 200 | Passed |
 | Hodnota sloupce tabulky "last_name"  pro "id" = 116  | GET : https://test-app.engeto.cz/students/20  | SELECT last_name FROM students WHERE id = 116  | '' | 200 | Passed |
 | Hodnota sloupce tabulky "email"  pro "id" = 116  | GET : https://test-app.engeto.cz/students/20  | SELECT email FROM students WHERE id = 116  | '' | 200 | Passed |
-| Hodnota sloupce tabulky "is_Eu_Citizen"  pro "id" = 116  | GET : https://test-app.engeto.cz/students/20  | SELECT is_Eu_Citizen FROM students WHERE id = 116  | [NULL] | 200 | Passed |
+| Hodnota sloupce tabulky "is_Eu_Citizen"  pro "id" = 116  | GET : https://test-app.engeto.cz/students/20  | SELECT is_Eu_Citizen FROM students WHERE id = 116  | True | 200 | Passed |
 | Hodnota sloupce tabulky "number_Of_Failed_Studies"  pro "id" = 116  | GET : https://test-app.engeto.cz/students/39  | SELECT number_Of_Failed_Studies FROM students WHERE id = 116  | 0  | 200 | Passed |
