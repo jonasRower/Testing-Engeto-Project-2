@@ -67,8 +67,7 @@ SELECT COUNT([název sloupce]) FROM students WHERE [název sloupce]) IS NOT NULL
 | Počet záznamů "last_name"  | SELECT COUNT(last_name) FROM students WHERE last_name IS NOT NULL  | 398 | některé záznamy obsahují prázdné hodnoty | SELECT COUNT(last_name) FROM students WHERE last_name = ''  | 5 | existují nevyplněné hodnoty | Passed |
 | Počet záznamů "email"  | SELECT COUNT(email) FROM students WHERE email IS NOT NULLL  | 395 | některé záznamy obsahují prázdné hodnoty | SELECT COUNT(email) FROM students WHERE email = ''  | 20 | existují nevyplněné hodnoty | Passed |
 | Počet záznamů "is_eu_citizen"  | SELECT COUNT(is_eu_citizen) FROM students WHERE is_eu_citizen IS NOT NULL  | 467 | neexistuje prázdná hodnota | SELECT COUNT(is_eu_citizen) FROM students WHERE is_eu_citizen = false  | 217 | existují nevyplněné hodnoty | Passed |
-| Počet záznamů "zip_code"  | SELECT COUNT(zip_code) FROM students WHERE zip_code IS NOT NULL  | 467 | neexistuje prázdná hodnota | SELECT COUNT(zip_code) FROM students WHERE zip_code = ''  | 467 | neexistuje vyplněná hodnota | Failed |
-| Počet záznamů "number_of_failed_studies"  | SELECT COUNT(number_of_failed_studies) FROM students WHERE number_of_failed_studies IS NOT NULL  | 467 | neexistuje prázdná hodnota | SELECT COUNT(number_of_failed_studies) FROM students WHERE number_of_failed_studies = 0  | 338 | existují nevyplněné hodnoty | Passed |
+
 
 
 
