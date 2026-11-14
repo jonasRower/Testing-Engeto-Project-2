@@ -16,7 +16,10 @@ Tabulku csv získáme exportem dat z DB, jak je popsáno: [export z DB](https://
 
 ![explorer](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/kombinatorikaExplorer.png)
 
+Soubor kombinace.xlsx obsahuje data:
+![kombinaceXlsx](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/kombinaceXlsx.png)
 
+soubor jsme vytvořili manuálně, kde jsme pouze překopírovali data ze souboru získaného dle návodu [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/generuj%20GET_POST.md)
 
 
 
