@@ -187,7 +187,7 @@ Data ověříme provedením SQL dotazů:
 Pomocí SQL dotazů zjistíme existující záznamy v DB obsahující speciální znaky
 
 | Speciální znak     | SQL dotaz     | nalezené id  | Request  | Klíč Response  | Hodnota Response  | SQL dotaz  | SQL výsledek  | Status Code  | Výsledek testu  | 
-| -------- | ------- | --------  | --------  | --------  | --------  | --------  | --------  |
+| -------- | ------- | --------  | --------  | --------  | --------  | --------  | --------  | --------  | --------  |
 | ?  | SELECT min(id) FROM students WHERE email LIKE '%?%' or first_name LIKE '%?%' or last_name LIKE '%?%' | 187 | GET : https://test-app.engeto.cz/students/187  | Klíč Response  | Hodnota Response  | SELECT email FROM students WHERE id = 187   | ?? | 200 | Passed |
 | :  | SELECT min(id) FROM students WHERE email LIKE '%:%' or first_name LIKE '%:%' or last_name LIKE '%:%' | 200 | GET : https://test-app.engeto.cz/students/200  | Klíč Response  | Hodnota Response  | SELECT email FROM students WHERE id =    |  | 200 | Passed |
 | ;  | SELECT min(id) FROM students WHERE email LIKE '%;%' or first_name LIKE '%;%' or last_name LIKE '%;%' | 233 | GET : https://test-app.engeto.cz/students/233  | Klíč Response  | Hodnota Response  | SELECT email FROM students WHERE id =    |  | 200 | Passed |
