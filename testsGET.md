@@ -184,3 +184,9 @@ Data ověříme provedením SQL dotazů:
 
 ## Testování speciálních znaků
 
+Pomocí SQL dotazů zjistíme existující záznamy v DB obsahující speciální znaky
+
+| Speciální znak     | SQL dotaz     | nalezené id  | Request  | SQL dotaz  | SQL výsledek  | Status Code  | Výsledek testu  | 
+| -------- | ------- | --------  | --------  | --------  | --------  | --------  | --------  |
+| Hodnota sloupce tabulky "id" pro "id" = 20  | GET : https://test-app.engeto.cz/students/20  | SELECT id FROM students WHERE id = 20  | 20 | 200 | Passed | Passed | Passed |
+
