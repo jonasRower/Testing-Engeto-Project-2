@@ -188,5 +188,5 @@ Pomocí SQL dotazů zjistíme existující záznamy v DB obsahující speciáln�
 
 | Speciální znak     | SQL dotaz     | nalezené id  | Request  | SQL dotaz  | SQL výsledek  | Status Code  | Výsledek testu  | 
 | -------- | ------- | --------  | --------  | --------  | --------  | --------  | --------  |
-| Hodnota sloupce tabulky "id" pro "id" = 20  | GET : https://test-app.engeto.cz/students/20  | SELECT id FROM students WHERE id = 20  | 20 | 200 | Passed | Passed | Passed |
+| ?  | SELECT min(id) FROM students WHERE email LIKE '%?%' | 187 | GET : https://test-app.engeto.cz/students/187  | SELECT email FROM students WHERE id = 187   | ?? | 200 | Passed |
 
