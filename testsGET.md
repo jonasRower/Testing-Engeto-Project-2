@@ -204,6 +204,18 @@ Pomocí SQL dotazů zjistíme existující záznamy v DB obsahující speciáln�
 <details>
 
 <summary>Response id = 187</summary>
+GET https://test-app.engeto.cz/students/187
+
+```json
+{
+    "id": 187,
+    "firstName": "??",
+    "lastName": "??",
+    "email": "??",
+    "isEuCitizen": true,
+    "numberOfFailedStudies": 0
+}
+```
 
 </details>
 
@@ -211,6 +223,18 @@ Pomocí SQL dotazů zjistíme existující záznamy v DB obsahující speciáln�
 <details>
 
 <summary>Response id = 200</summary>
+GET https://test-app.engeto.cz/students/200
+
+```json
+{
+    "id": 200,
+    "firstName": "?:_!/(",
+    "lastName": "?:_!/(",
+    "email": "zkouska.dalsi@seznam.cz",
+    "isEuCitizen": true,
+    "numberOfFailedStudies": 0
+}
+```
 
 </details>
 
@@ -218,6 +242,18 @@ Pomocí SQL dotazů zjistíme existující záznamy v DB obsahující speciáln�
 <details>
 
 <summary>Response id = 233</summary>
+GET https://test-app.engeto.cz/students/233
+
+```json
+{
+    "id": 233,
+    "firstName": "'; DROP TABLE students;--",
+    "lastName": "B",
+    "email": "t171783598323.2575445@t.cz",
+    "isEuCitizen": false,
+    "numberOfFailedStudies": 0
+}
+```
 
 </details>
 
@@ -225,6 +261,18 @@ Pomocí SQL dotazů zjistíme existující záznamy v DB obsahující speciáln�
 <details>
 
 <summary>Response id = 148</summary>
+GET https://test-app.engeto.cz/students/148
+
+```json
+{
+    "id": 148,
+    "firstName": "Peeta",
+    "lastName": "MELLARK",
+    "email": "*>$ß¤×÷¨¸*>$ß¤×÷¨¸@seznam.",
+    "isEuCitizen": true,
+    "numberOfFailedStudies": 0
+}
+```
 
 </details>
 
@@ -232,6 +280,20 @@ Pomocí SQL dotazů zjistíme existující záznamy v DB obsahující speciáln�
 <details>
 
 <summary>Response id = 41</summary>
+GET https://test-app.engeto.cz/students/41
+
+```json
+{
+    "id": 41,
+    "firstName": "' OR 1=1 --",
+    "lastName": "TEST",
+    "email": "test@test.com",
+    "isEuCitizen": true,
+    "numberOfFailedStudies": 0
+}
+```
+
+
 
 </details>
 
