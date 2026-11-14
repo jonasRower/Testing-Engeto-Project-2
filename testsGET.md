@@ -76,3 +76,19 @@ Data ověříme provedením SQL dotazů:
 | Hodnota sloupce tabulky "email"  pro "id" = 116  | GET : https://test-app.engeto.cz/students/20  | SELECT email FROM students WHERE id = 116  | '' | 200 | Passed |
 | Hodnota sloupce tabulky "is_Eu_Citizen"  pro "id" = 116  | GET : https://test-app.engeto.cz/students/20  | SELECT is_Eu_Citizen FROM students WHERE id = 116  | True | 200 | Passed |
 | Hodnota sloupce tabulky "number_Of_Failed_Studies"  pro "id" = 116  | GET : https://test-app.engeto.cz/students/39  | SELECT number_Of_Failed_Studies FROM students WHERE id = 116  | 0  | 200 | Passed |
+
+
+## Testování zda email může začínat znakem '@'
+
+id záznamu v DBeveru, který budeme testovat, zjistíme následujícím dotazem:
+```SQL
+SELECT min(id) FROM students where email like '@%'
+```
+DBeaver vrací:
+| min     |  
+| -------- |
+| 64 |
+
+
+## Testování speciálních znaků
+
