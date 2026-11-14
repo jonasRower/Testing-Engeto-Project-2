@@ -213,6 +213,21 @@ Příprava testovacích dat, pro metody GET a POST je stejná, [postup](https://
 Postup, jakým jsme spustili testy v Postmanu je zde:
 [Jak spustit Postman hromadne](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/jak_Spustit_Postman_Hromadne.md)
 
+### Generované sady testů GET
+
+Samotné porovnání výsledků testu provedeme dle manuálu
+[porovnani vysledku GET](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/porovnaniVysledkuGet.md)
+
+[vysledky testu GET](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/vysledky_Testu_GET.md)
+
+
+### Generované sady testů POST
+
+Samotné porovnání výsledků testu provedeme dle manuálu
+[porovnani vysledku POST](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/porovnaniVysledkuPost.md)
+
+[vysledky testu POST](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/vysledky_Testu_GET.md)
+
 ### Snmoke testy
 
 Použili jsme vlastní nástroj: <br>
