@@ -1,7 +1,7 @@
 ## Porovnání výsledků GET - postup.
 
 Budeme porovnávat export z databáze a sadu souborů json obsahující jednotlivé odezvy z jednotlivých requestů. <br>
-Všechny data jsou uložena ve složce [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/tree/main/results_tests/GET)
+Všechny data jsou uložena ve složce [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/tree/main/results_tests/GET). Jednotlivé json-responses jsme získali po provedení testu, který jsme spustili dle návodu [hromadne spustit testy](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/jak_Spustit_Postman_Hromadne.md) .
 <br><br>
 
 1. Stáhneme program na porovnávání výsledků [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Tools/Compare%20csv%20%26%20json/jsons_Csv_Comparator.xlsm). Před spuštěním je potřeba odblokovat makra, můžeme postupovat dle manuálu [jak odblokovat makra](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/odblok_Makro_VBA.md)
