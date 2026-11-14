@@ -1,3 +1,5 @@
+## Existence názvů sloupců tabulky students v DBeaver
+
 | Test     | Request  | SQL dotaz  | SQL výsledek  | Status Code  | Výsledek testu  | 
 | -------- | ------- | --------  | --------  | --------  | --------  |
 | Název sloupce tabulky "id"  | GET : https://test-app.engeto.cz/students/39  |select id from students where id = 39  | 39 | 200 | Passed |
