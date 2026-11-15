@@ -36,3 +36,11 @@ Manuál ve verzi pdf je zde : <br>
    
 </details>
 
+<details>
+
+<summary>Porovnání konzistence dat u requestů proběhlých.</summary>
+
+v souboru 
+[zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/results_tests/POST/POST.xlsx), můžeme dohledat, že úspěšně jsme vytvořili nové záznamy, kterým bylo přiřazeno id 428 - 460. Řádky se záznamy jsou označené žlutou barvou.
+
+</details>
