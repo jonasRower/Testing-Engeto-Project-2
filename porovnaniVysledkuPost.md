@@ -57,4 +57,8 @@ SELECT * FROM students WHERE id > 427 and  id < 461
 A danou tabulku vyexportujeme do csv.
 
 
+Výsledky testu jsou zde:
+[spravne vytvorene zaznamy](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/vysledky_POST_porovnane.md)
+
+
 </details>
