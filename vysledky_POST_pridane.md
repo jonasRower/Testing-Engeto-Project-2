@@ -2,3 +2,5 @@
 
 Výsledek testu je uložen v souboru xlsx : [DB před testem a po testu](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/results_tests/POST/POST.xlsx)
 
+![predPoDB](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/post_vyhodnoceni.png)
+
