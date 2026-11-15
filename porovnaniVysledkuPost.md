@@ -24,7 +24,8 @@ Budeme provádět 2 druhy testů:
 <br>
 
 Výsledky testu jsou zde:
-[vysledkyTestu](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/vysledky_POST_pridane.md)
+[vysledky pred a po testu](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/vysledky_POST_pridane.md)
+<br>
 
 Manuál ve verzi pdf je zde : <br>
 [Popis nástroje pro porovnávání výsledků testů](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Tools/Compare%20csv%20%26%20json/Porovn%C3%A1v%C3%A1n%C3%AD%20tabulek.pdf)
@@ -36,6 +37,9 @@ Manuál ve verzi pdf je zde : <br>
 
    1. Před započetím testu si stáhneme data z DB, dle manuálu [export z DB](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/export_DB.md)
    2. Postupujeme dle manuálu [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/vyhledejId_postup.md)
+
+Výsledky testu jsou zde:
+
    
 </details>
 
