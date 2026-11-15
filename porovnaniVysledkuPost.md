@@ -41,6 +41,12 @@ Manuál ve verzi pdf je zde : <br>
 <summary>Porovnání konzistence dat u requestů proběhlých.</summary>
 
 v souboru 
-[zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/results_tests/POST/POST.xlsx), můžeme dohledat, že úspěšně jsme vytvořili nové záznamy, kterým bylo přiřazeno id 428 - 460. Řádky se záznamy jsou označené žlutou barvou.
+[zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/results_tests/POST/POST.xlsx), můžeme dohledat, že úspěšně jsme vytvořili nové záznamy, kterým bylo přiřazeno id 428 - 460. Řádky se záznamy jsou označené žlutou barvou. <br>
+Do Databáze jsme vložili SQL dotaz
+```SQL
+SELECT * FROM students WHERE id > 427 and  id < 461
+```
+A danou tabulku vyexportujeme do csv.
+
 
 </details>
