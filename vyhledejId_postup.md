@@ -13,6 +13,7 @@ Do buňky A2 vyplníme cestu ke složce s daty, příp. můžeme výběr provés
 
 Daná složka obsahuje soubor xlsx a tabulku csv.<br>
 Tabulku csv získáme exportem dat z DB, jak je popsáno: [export z DB](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/export_DB.md)
+Složka je zde : [xlsx + csv](https://github.com/jonasRower/Testing-Engeto-Project-2/tree/main/results_tests/POST_kombinace)
 
 ![explorer](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/MD/png/kombinatorikaExplorer.png)
 
