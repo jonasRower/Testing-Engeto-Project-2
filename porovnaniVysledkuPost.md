@@ -39,6 +39,7 @@ Manuál ve verzi pdf je zde : <br>
    2. Postupujeme dle manuálu [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/vyhledejId_postup.md)
 
 Výsledky testu jsou zde:
+[probehle testy](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/vysledky_POST_probehle.md)
 
    
 </details>
