@@ -56,7 +56,7 @@ Níže uvádíme tabulku vyhodnocení testů:
 | first_name  | last_name  | email  |  poznámka 
 | ----------  | ---------  | -----  | -----------------------  |  Status code  |
 | jonasR101      | SOBOTAR101    | jb.jb@sob2.jbR | pouze hodnota email je duplicitní, ostatní jsou unikátní | 400 |
-| jonasR201      | SOBOTAR201    | jb.jb@sob2.jbR101 | všechny hodnoty jsou unikátní | 201 |
+
 
 
 
