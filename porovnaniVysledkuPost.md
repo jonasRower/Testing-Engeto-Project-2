@@ -57,10 +57,17 @@ Pro test vytvoříme 2 soubory csv:
 ```SQL
 SELECT * FROM students WHERE id > 427 and  id < 461
 ```
-Export můžeme provést dle [manuálu](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/export_DB.md), s rozdílně zadaným SQL dotazem.
+   Export můžeme provést dle [manuálu](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/export_DB.md), s rozdílně zadaným SQL dotazem.
 
 2. Csv tabulku, získanou jako výstup, dle manuálu [kombinatorika](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/vyhledejId_postup.md), která je uložena [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/results_tests/POST_kombinace/Comparison/students_20261114070714.csv), nakopírujeme do stejné složky k csv souboru získanému v bodě 1. , data jsou [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/tree/main/results_tests/POST_kombinace2).
 
+Test provedeme následovně:
+1. Upravíme počet sloupců v tabulkách tak, aby se počet sloupců shodoval
+2. Stáhneme program na porovnávání výsledků [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Tools/Compare%20csv%20%26%20json/jsons_Csv_Comparator.xlsm). Před spuštěním je potřeba odblokovat makra, můžeme postupovat dle manuálu [jak odblokovat makra](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/odblok_Makro_VBA.md)
+4. Otevřeme soubor
+5. Na Listu "PROGRAM" do buňky A2 vyplníme adresu složky odkud budeme načítat data. Případně lze i vybrat složku klikem na Tlačítko "Složka".
+6. Klikneme na tlačítko "Načti - Porovnej - Ulož data". Počty sloupců jsme upravili v bodě 1. Program tedy porovná data a uloží je do souboru dané složky s názvem složky+.xls. Soubor je uložen [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/results_tests/POST_kombinace2/POST_kombinace2.xlsx)
+<br>
 
 Výsledky testu jsou zde:
 [spravne vytvorene zaznamy](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/vysledky_POST_porovnane.md)
