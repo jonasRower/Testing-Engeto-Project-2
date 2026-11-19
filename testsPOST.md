@@ -23,3 +23,16 @@ DBeaver vrací:
 | id    | first_name  | last_name  | email  | is_eu_citizen  |  number_of_failed_studies  |  
 | ----- | ----------  | ---------  | -----  | -------------  |  ------------------------  |
 | 428   | jonasR      | SOBOTAR    | jb.jb@sob2.jbR | True   |  0                         |
+
+Dle dokumentace k testům [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Testovani%20REST%20API.md), vložíme tělo requestu :
+
+```json
+  {
+  "firstName": "jonasR",
+  "lastName": "SOBOTAR",
+  "email": "jb.jb@sob2.jbR",
+  "isEuCitizen": true,
+  "numberOfFailedStudies": 0
+}
+```
+
