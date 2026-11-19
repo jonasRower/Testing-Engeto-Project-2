@@ -1,6 +1,6 @@
 ## Porovnání výsledků POST - postup.
 
-Budeme provádět 2 druhy testů:
+Budeme provádět 3 druhy testů:
 
 1. Porovnání exportovaných dat z DB před testem a po testu.
 2. Porovnání, které requesty proběhy a které neproběhly.
