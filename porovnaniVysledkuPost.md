@@ -15,7 +15,7 @@ Budeme provádět 3 druhy testů:
    <br><br>
 
    1. Před započetím testu si stáhneme data z DB, dle manuálu [export z DB](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/export_DB.md)
-   2.  Test provedeme hromadným suštěním requestů dle návodu [hromadne spustit testy](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/jak_Spustit_Postman_Hromadne.md)
+   2.  Test provedeme hromadným spuštěním requestů dle návodu [hromadne spustit testy](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/jak_Spustit_Postman_Hromadne.md)
    3.  Po ukončení testu opět exportujeme aktuální data z DB, dle manuálu [export z DB](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/export_DB.md) 
    4.  Stáhneme program na porovnávání výsledků [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Tools/Compare%20csv%20%26%20json/jsons_Csv_Comparator.xlsm). Před spuštěním je potřeba odblokovat makra, můžeme postupovat dle manuálu [jak odblokovat makra](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/odblok_Makro_VBA.md)
    5. Otevřeme soubor
