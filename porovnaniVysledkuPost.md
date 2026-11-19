@@ -63,7 +63,7 @@ SELECT * FROM students WHERE id > 427 and  id < 461
 2. Csv tabulku, získanou jako výstup, dle manuálu [kombinatorika](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/vyhledejId_postup.md), který je uložen [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/results_tests/POST_kombinace/Comparison/students_20261114070714.csv), nakopírujeme do stejné složky k csv souboru získanému v bodě 1. , data jsou [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/tree/main/results_tests/POST_kombinace2).
 
 Test provedeme následovně:
-1. Upravíme počet sloupců v tabulkách tak, aby se počet sloupců shodoval
+1. Upravíme počet sloupců v tabulkách csv tak, aby se počet sloupců shodoval
 2. Stáhneme program na porovnávání výsledků [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Tools/Compare%20csv%20%26%20json/jsons_Csv_Comparator.xlsm). Před spuštěním je potřeba odblokovat makra, můžeme postupovat dle manuálu [jak odblokovat makra](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/odblok_Makro_VBA.md)
 4. Otevřeme soubor
 5. Na Listu "PROGRAM" do buňky A2 vyplníme adresu složky odkud budeme načítat data. Případně lze i vybrat složku klikem na Tlačítko "Složka".
