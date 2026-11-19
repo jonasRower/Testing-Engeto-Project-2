@@ -15,6 +15,10 @@ DBeaver vrací:
 První námi vytvořený záznam má tedy id = 428
 
 Vyhledáme tedy všechny hodnoty záznamu s id = 428
+```SQL
+SELECT * FROM students WHERE id = 428
+```
+
 | id    | first_name  | last_name  | email  | is_eu_citizen  |  number_of_failed_studies  |  
 | ----- | ----------  | ---------  | -----  | -------------  |  ------------------------  |
 | 428   | jonasR      | SOBOTAR    | jb.jb@sob2.jbR | True   |  0                         |
