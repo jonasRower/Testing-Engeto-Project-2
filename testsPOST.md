@@ -27,7 +27,7 @@ DBeaver vrací:
 Dle dokumentace k testům [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/Testovani%20REST%20API.md), vložíme tělo requestu :
 
 ```json
-  {
+{
   "firstName": "jonasR",
   "lastName": "SOBOTAR",
   "email": "jb.jb@sob2.jbR",
@@ -35,4 +35,17 @@ Dle dokumentace k testům [zde](https://github.com/jonasRower/Testing-Engeto-Pro
   "numberOfFailedStudies": 0
 }
 ```
+
+Odezva requestu je následující:
+```json
+{
+    "detail": "Student with the same e-mail already exists",
+    "code": "STUDENT_EMAIL_EXISTS"
+}
+```
+
+Request vrací status code = 400 - Bad Request
+
+
+
 
