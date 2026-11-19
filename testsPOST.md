@@ -47,5 +47,8 @@ Odezva requestu je následující:
 Request vrací status code = 400 - Bad Request
 
 
+[2](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/vysledky_POST_probehle.md)
+
+
 
 
