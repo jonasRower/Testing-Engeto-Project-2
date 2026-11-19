@@ -51,6 +51,12 @@ Přípravou testovacích dat, se zabývá dokumentace zde [priprava testovacich 
 Následně jsme pokračovali dle postupu zde, dle bodu 2,
 [porovnani probehlych testu](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/vysledky_POST_probehle.md)
 
+Níže uvádíme tabulku vyhodnocení testů:
+
+| first_name  | last_name  | email  |  poznámka 
+| ----------  | ---------  | -----  | -----------------------  |
+| jonasR101      | SOBOTAR101    | jb.jb@sob2.jbR | pouze hodnota email je duplicitní, ostatní jsou unikátní
+| jonasR201      | SOBOTAR201    | jb.jb@sob2.jbR101 | všechny hodnoty jsou unikátní
 
 
 
