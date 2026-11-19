@@ -54,7 +54,7 @@ Do Databáze jsme vložili SQL dotaz
 ```SQL
 SELECT * FROM students WHERE id > 427 and  id < 461
 ```
-A danou tabulku vyexportujeme do csv [DB id 428-460](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/results_tests/POST_kombinace2/students_202611140835.csv) .
+A danou tabulku vyexportujeme do csv [DB id 428-460](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/results_tests/POST_kombinace2/students_202611140835.csv). Export můžeme provést dle [manuálu](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/export_DB.md), s rozdílně zadaným SQL dotazem.
 
 
 Výsledky testu jsou zde:
