@@ -46,8 +46,10 @@ Odezva requestu je následující:
 
 Request vrací status code = 400 - Bad Request
 
+Přípravou testovacích dat, se zabývá dokumentace zde [priprava testovacich dat](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/generuj%20GET_POST.md) , podkapitola "Kombinatorika jedinečných hodnot"
 
-[2](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/vysledky_POST_probehle.md)
+Následně jsme pokračovali dle postupu zde, dle bodu 2
+[porovnani probehlych testu](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/vysledky_POST_probehle.md)
 
 
 
