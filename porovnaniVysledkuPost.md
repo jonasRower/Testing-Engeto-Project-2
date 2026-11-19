@@ -50,11 +50,16 @@ Výsledky testu jsou zde:
 
 v souboru 
 [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/results_tests/POST/POST.xlsx), můžeme dohledat, že úspěšně jsme vytvořili nové záznamy, kterým bylo přiřazeno id 428 - 460. Řádky se záznamy jsou označené žlutou barvou. <br>
-Do Databáze jsme vložili SQL dotaz
+
+Pro test vytvoříme 2 soubory csv:
+
+1. vyexportujeme do csv [DB id 428-460](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/results_tests/POST_kombinace2/students_202611140835.csv) tabulku z DB s dotazem:
 ```SQL
 SELECT * FROM students WHERE id > 427 and  id < 461
 ```
-A danou tabulku vyexportujeme do csv [DB id 428-460](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/results_tests/POST_kombinace2/students_202611140835.csv). Export můžeme provést dle [manuálu](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/export_DB.md), s rozdílně zadaným SQL dotazem.
+Export můžeme provést dle [manuálu](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/export_DB.md), s rozdílně zadaným SQL dotazem.
+
+2. Csv tabulku, získanou jako výstup, dle manuálu [kombinatorika](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/vyhledejId_postup.md), která je uložena [zde](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/results_tests/POST_kombinace/Comparison/students_20261114070714.csv)
 
 
 Výsledky testu jsou zde:
