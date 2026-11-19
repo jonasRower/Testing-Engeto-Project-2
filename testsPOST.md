@@ -18,6 +18,7 @@ Vyhledáme tedy všechny hodnoty záznamu s id = 428
 ```SQL
 SELECT * FROM students WHERE id = 428
 ```
+DBeaver vrací:
 
 | id    | first_name  | last_name  | email  | is_eu_citizen  |  number_of_failed_studies  |  
 | ----- | ----------  | ---------  | -----  | -------------  |  ------------------------  |
