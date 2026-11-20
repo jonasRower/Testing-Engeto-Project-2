@@ -28,7 +28,8 @@ Postman vypíše odezvu:
     "numberOfFailedStudies": 0
 }
 ```
-Status Code : 201 Created <br/>
+Status Code : <br>
+201 Created <br>
 A new resource was created successfully.
 <br><br>
 
@@ -68,7 +69,9 @@ Postman vypíše odezvu:
     "code": "STUDENT_EMAIL_EXISTS"
 }
 ```
-
+Status Code : <br>
+400 Bad Request <br>
+The server could not understand the request. Maybe a bad syntax?
 
 
 ## Testování duplicitně přidané hodnoty email
