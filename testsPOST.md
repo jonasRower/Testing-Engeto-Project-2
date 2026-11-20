@@ -28,6 +28,10 @@ Postman vypíše odezvu:
     "numberOfFailedStudies": 0
 }
 ```
+Status Code : 201 Created <br/>
+A new resource was created successfully.
+<br><br>
+
 Přidanému záznamu bylo přiřazeno id = 472. Dle přiřazeného id dohledáme ostatní data záznamu v DBeveru.
 ```SQL
 SELECT * FROM students WHERE id = 472
@@ -38,9 +42,7 @@ DBeaver vrací:
 | ----- | ----------  | ---------  | -----  | -------------  |  ------------------------  |
 | 472   | jonasR1001      | SOBOTAR101    | jb.jb@sob2.jbR6001  | True   |  0                         |
 
-Status Code : 201 Created <br/>
-A new resource was created successfully.
-<br><br>
+
 Záznam byl přidán úspěšně
 <br><br>
 
