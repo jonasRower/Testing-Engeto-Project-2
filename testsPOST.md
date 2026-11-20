@@ -53,11 +53,11 @@ Následně jsme pokračovali dle postupu zde, dle bodu 2,
 
 Níže uvádíme tabulku vyhodnocení testů:
 
-| first_name  | last_name  | email  |  poznámka |  Status code  |
-| ----------  | ---------  | -----  | -----------------------  |  ------  |
-| jonasR101      | SOBOTAR101    | jb.jb@sob2.jbR | pouze hodnota email je duplicitní, ostatní jsou unikátní | 400 |
-| jonasR201      | SOBOTAR201    | jb.jb@sob2.jbR101 | všechny hodnoty jsou unikátní | 201 |
-| jonasR101      | SOBOTAR101    | jb.jb@sob2.jbR601 |  pouze hodnota email je unikátní, ostatní jsou duplicitní | 201 |
+| first_name  | last_name  | email  |  poznámka |  Status code  | Výsledek testu  |
+| ----------  | ---------  | -----  | -----------------------  |  ------  |  ------  |
+| jonasR101      | SOBOTAR101    | jb.jb@sob2.jbR | pouze hodnota email je duplicitní, ostatní jsou unikátní | 400 |  Passed  |
+| jonasR201      | SOBOTAR201    | jb.jb@sob2.jbR101 | všechny hodnoty jsou unikátní | 201 |  Failed  |
+| jonasR101      | SOBOTAR101    | jb.jb@sob2.jbR601 |  pouze hodnota email je unikátní, ostatní jsou duplicitní | 201 |  Failed  |
 
 
 
