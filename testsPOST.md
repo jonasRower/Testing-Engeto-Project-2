@@ -299,6 +299,9 @@ Odezva:
 }
 ```
 
+Status Code 201
+<br><br>
+
 Testování tabulátoru. Request:
 ```json
 {
@@ -322,6 +325,28 @@ Odezva:
 }
 ```
 
+Status Code 201
+<br><br>
+
+Testování speciálního znaku ASCII 9 viz zde: [ASCII 9](https://www.ascii-code.com/9)
+```json
+{
+  "firstName": "	",
+  "lastName":  "	",
+  "email":  "	",
+  "isEuCitizen": false,
+  "numberOfFailedStudies": 0
+}
+
+```
+
+Odezva:
+```json
+{
+    "detail": "body -> 19: JSON decode error",
+    "code": "VALIDATION_ERROR"
+}
+```
 
 Status Code: 
 422 Unprocessable Entity (WebDAV) (RFC 4918)
@@ -377,4 +402,7 @@ Odezva:
     "numberOfFailedStudies": 0
 }
 ```
+
+Status Code 201
+<br><br>
 
