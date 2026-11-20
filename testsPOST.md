@@ -355,5 +355,26 @@ Odezva:
 Status Code: 201
 <br><br>
 
+Přehlasovaná písmena
+```json
+{
+  "firstName": " ä, ö, ü Ä, Ö, Ü, ë, ï, ÿ",
+  "lastName": " ä, ö, ü Ä, Ö, Ü, ë, ï, ÿ",
+  "email": " ä, ö, ü Ä, Ö, Ü, ë, ï, ÿ",
+  "isEuCitizen": false,
+  "numberOfFailedStudies": 0
+}
+```
 
+Odezva:
+```json
+{
+    "id": 483,
+    "firstName": " ä, ö, ü Ä, Ö, Ü, ë, ï, ÿ",
+    "lastName": " Ä, Ö, Ü Ä, Ö, Ü, Ë, Ï, Ÿ",
+    "email": " ä, ö, ü Ä, Ö, Ü, ë, ï, ÿ",
+    "isEuCitizen": false,
+    "numberOfFailedStudies": 0
+}
+```
 
