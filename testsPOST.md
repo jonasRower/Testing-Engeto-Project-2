@@ -1,4 +1,4 @@
-# Testy GET
+# Testy POST
 
 ## Úspěšně přidaný záznam do DB
 
