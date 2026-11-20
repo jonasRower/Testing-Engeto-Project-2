@@ -1,6 +1,6 @@
 # Testy GET
 
-## Úspěšně / Neúspěšně přidaný záznam do DB
+## Úspěšně přidaný záznam do DB
 
 Úspěšně přidaný záznam, znamená, že pomocí metody POST se zapíší data do DB.
 
