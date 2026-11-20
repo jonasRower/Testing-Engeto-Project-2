@@ -38,11 +38,11 @@ DBeaver vrací:
 | ----- | ----------  | ---------  | -----  | -------------  |  ------------------------  |
 | 472   | jonasR1001      | SOBOTAR101    | jb.jb@sob2.jbR6001  | True   |  0                         |
 
-Status Code : 201 Created <br>
+Status Code : 201 Created <br/>
 A new resource was created successfully.
-<br<br>
+<br><br>
 Záznam byl přidán úspěšně
-<br<br>
+<br><br>
 
 ## Neúspěšně přidaný záznam do DB
 
