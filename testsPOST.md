@@ -28,7 +28,7 @@ Postman vypíše odezvu:
     "numberOfFailedStudies": 0
 }
 ```
-Pomocí dotazu SQL dohledáme data v DBeveru:
+Přidanému záznamu bylo přiřazeno id = 472. Dle přiřazeného id dohledáme ostatní data záznamu v DBeveru.
 ```SQL
 SELECT * FROM students WHERE id = 472
 ```
