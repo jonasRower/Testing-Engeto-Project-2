@@ -38,7 +38,35 @@ DBeaver vrací:
 | ----- | ----------  | ---------  | -----  | -------------  |  ------------------------  |
 | 472   | jonasR1001      | SOBOTAR101    | jb.jb@sob2.jbR6001  | True   |  0                         |
 
+Status Code : 201 201 Created <br>
+A new resource was created successfully.
+<br<br>
 Záznam byl přidán úspěšně
+<br<br>
+
+## Neúspěšně přidaný záznam do DB
+
+Opakujeme request znovu, Tělo requestu je stejné:
+
+```json
+{
+  "firstName": "jonasR1001",
+  "lastName": "SOBOTAR101",
+  "email": "jb.jb@sob2.jbR6001 ",
+  "isEuCitizen": true,
+  "numberOfFailedStudies": 0
+}
+```
+
+Postman vypíše odezvu:
+
+```json
+{
+    "detail": "Student with the same e-mail already exists",
+    "code": "STUDENT_EMAIL_EXISTS"
+}
+```
+
 
 
 ## Testování duplicitně přidané hodnoty email
