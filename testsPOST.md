@@ -172,4 +172,52 @@ Porovnání zobrazíme v tabulce
 | isEuCitizen  | true  | true  | Passed  |
 | numberOfFailedStudies  | 0  | 0  | Passed  |
 
+Níže testujeme, zda se převádí opravdu všechna písmena základní abecedy
+```json
+{
+  "firstName": "abcdefghijklmnopqrstuvwxyz",
+  "lastName": "abcdefghijklmnopqrstuvwxyz",
+  "email": "jb.jb@sob2.abc ",
+  "isEuCitizen": true,
+  "numberOfFailedStudies": 0
+}
+```
+
+Odezva requestu je následující:
+```json
+{
+    "id": 475,
+    "firstName": "abcdefghijklmnopqrstuvwxyz",
+    "lastName": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "email": "jb.jb@sob2.abc ",
+    "isEuCitizen": true,
+    "numberOfFailedStudies": 0
+}
+```
+Skutečně, všechna písmena základní abecedy se převádí na velká písmena
+
+
+## Testování konzistence request / DBeaver
+
+Vyhledáme v DBeveru záznam s id = 474
+```SQL
+SELECT * FROM students WHERE id = 474
+```
+
+DBever vrací data:
+| id    | first_name  | last_name  | email  | is_eu_citizen  |  number_of_failed_studies  |  
+| ----- | ----------  | ---------  | -----  | -------------  |  ------------------------  |
+| 474   | jonasR2001      | SOBOTA101    | jb.jb@sob2.jbR8001  | True   |  0              |
+
+Vyhodnocení testu zobrazíme v tabulce:
+
+| klíč  | hodnota request  | hodnota DB  |  Výsledek testu | 
+| ----------  | ---------  | ----------------  | --------------  |
+| firstName  | jonasR2001  | jonasR2001  | Passed  |
+| lastName  | sobota101  | SOBOTA101  | Failed  |
+| email  | jb.jb@sob2.jbR8001  | jb.jb@sob2.jbR8001  | Passed  |
+| isEuCitizen  | true  | true  | Passed  |
+| numberOfFailedStudies  | 0  | 0  | Passed  |
+
+Výsledek testu vychází stejně jako při vyhodnocení testu konzistence request / response.
 
