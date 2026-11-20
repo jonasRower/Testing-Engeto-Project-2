@@ -137,4 +137,6 @@ Níže uvádíme tabulku vyhodnocení testů:
 | jonasR101      | SOBOTAR101    | jb.jb@sob2.jbR601 |  pouze hodnota email je unikátní, ostatní jsou duplicitní | 201 |  Passed  |
 
 
+## Testování konzistence dat
+
 
