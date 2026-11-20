@@ -221,3 +221,139 @@ Vyhodnocení testu zobrazíme v tabulce:
 
 Výsledek testu vychází stejně jako při vyhodnocení testu konzistence request / response.
 
+## Testování speciálních znaků
+
+Testování závorek. Tělo requestu:
+```json
+{
+  "firstName": "(){}",
+  "lastName": "(){}",
+  "email": "(){}",
+  "isEuCitizen": false,
+  "numberOfFailedStudies": 0
+}
+```
+
+Odezva:
+```json
+{
+    "id": 476,
+    "firstName": "(){}",
+    "lastName": "(){}",
+    "email": "(){}",
+    "isEuCitizen": false,
+    "numberOfFailedStudies": 0
+}
+```
+
+Status Code 201
+<br><br>
+
+Testování vložení requestu s již existujícími hodnotami v DB. Vkládají se speciální znaky. Existující záznam má id = 200.
+```json
+{
+  "firstName": "?:_!/(",
+  "lastName": "?:_!/(",
+  "email": "?:_!/(",
+  "isEuCitizen": false,
+  "numberOfFailedStudies": 0
+}
+```
+
+Odezva:
+```json
+{
+    "id": 477,
+    "firstName": "?:_!/(",
+    "lastName": "?:_!/(",
+    "email": "?:_!/(",
+    "isEuCitizen": false,
+    "numberOfFailedStudies": 0
+}
+```
+
+Status Code 201
+<br><br>
+
+
+Testování vložení requestu s již existujícími hodnotami v DB. Vkládají se speciální znaky. Existující záznam má id = 148.
+```json
+{
+  "firstName": ">$ß¤×÷¨¸>$ß¤×÷¨¸@seznam.",
+  "lastName": ">$ß¤×÷¨¸>$ß¤×÷¨¸@seznam.",
+  "email": "musi byt neco jineho, jinak to nefunguje2",
+  "isEuCitizen": false,
+  "numberOfFailedStudies": 0
+}
+```
+
+Odezva:
+```json
+{
+    "id": 480,
+    "firstName": ">$ß¤×÷¨¸>$ß¤×÷¨¸@seznam.",
+    "lastName": ">$SS¤×÷¨¸>$SS¤×÷¨¸@SEZNAM.",
+    "email": "musi byt neco jineho, jinak to nefunguje2",
+    "isEuCitizen": false,
+    "numberOfFailedStudies": 0
+}
+```
+
+Testování tabulátoru. Request:
+```json
+{
+  "firstName": "    ",
+  "lastName": " ",
+  "email": "    ",
+  "isEuCitizen": false,
+  "numberOfFailedStudies": 0
+}
+```
+
+Odezva:
+```json
+{
+    "id": 482,
+    "firstName": "    ",
+    "lastName": " ",
+    "email": "    ",
+    "isEuCitizen": false,
+    "numberOfFailedStudies": 0
+}
+```
+
+
+Status Code: 
+422 Unprocessable Entity (WebDAV) (RFC 4918)
+The request was well-formed but had semantic errors.
+<br><br>
+
+
+Testování vložení requestu s již existujícími hodnotami v DB. Vkládají se speciální znaky. Existující záznam má id = 41.
+```json
+{
+  "firstName": "' OR 1=1 --",
+  "lastName": "' OR 1=1 --",
+  "email": "' OR 1=1 --",
+  "isEuCitizen": false,
+  "numberOfFailedStudies": 0
+}
+```
+
+Odezva:
+```json
+{
+    "id": 478,
+    "firstName": "' OR 1=1 --",
+    "lastName": "' OR 1=1 --",
+    "email": "' OR 1=1 --",
+    "isEuCitizen": false,
+    "numberOfFailedStudies": 0
+}
+```
+
+Status Code: 201
+<br><br>
+
+
+
