@@ -75,7 +75,7 @@ The server could not understand the request. Maybe a bad syntax?
 
 Exportováním dat z DBeveru před a po testu a porovnáním, se můžeme přesvědčit, že skutečně žádná jiná data přidána do DB nejsou.
 Manuál je zde: [export z DB](https://github.com/jonasRower/Testing-Engeto-Project-2/blob/main/export_DB.md)
-
+<br><br>
 
 ## Testování duplicitně přidané hodnoty email
 
