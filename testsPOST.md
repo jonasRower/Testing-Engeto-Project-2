@@ -137,6 +137,39 @@ Níže uvádíme tabulku vyhodnocení testů:
 | jonasR101      | SOBOTAR101    | jb.jb@sob2.jbR601 |  pouze hodnota email je unikátní, ostatní jsou duplicitní | 201 |  Passed  |
 
 
-## Testování konzistence dat
+## Testování konzistence request / response
+
+V Postmanu vložíme request s tělem:
+```json
+{
+  "firstName": "jonasR2001",
+  "lastName": "sobota101",
+  "email": "jb.jb@sob2.jbR8001 ",
+  "isEuCitizen": true,
+  "numberOfFailedStudies": 0
+}
+```
+
+Odezva requestu je následující:
+```json
+{
+    "id": 474,
+    "firstName": "jonasR2001",
+    "lastName": "SOBOTA101",
+    "email": "jb.jb@sob2.jbR8001 ",
+    "isEuCitizen": true,
+    "numberOfFailedStudies": 0
+}
+```
+
+Porovnání zobrazíme v tabulce
+
+| klíč  | hodnota request  | hodnota response  |  Výsledek testu | 
+| ----------  | ---------  | ----------------  | --------------  |
+| firstName  | jonasR2001  | jonasR2001  | Passed  |
+| lastName  | sobota101  | SOBOTA101  | Failed  |
+| email  | jb.jb@sob2.jbR8001  | jb.jb@sob2.jbR8001  | Passed  |
+| isEuCitizen  | true  | true  | Passed  |
+| numberOfFailedStudies  | 0  | 0  | Passed  |
 
 
