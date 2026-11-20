@@ -1,5 +1,44 @@
 # Testy GET
 
+## Úspěšně / Neúspěšně přidaný záznam do DB
+
+Úspěšně přidaný záznam, znamená, že pomocí metody POST se zapíší data do DB.
+
+Tělo requestu je:
+
+```json
+{
+  "firstName": "jonasR1001",
+  "lastName": "SOBOTAR101",
+  "email": "jb.jb@sob2.jbR6001 ",
+  "isEuCitizen": true,
+  "numberOfFailedStudies": 0
+}
+```
+
+Postman vypíše odezvu:
+
+```json
+{
+    "id": 472,
+    "firstName": "jonasR1001",
+    "lastName": "SOBOTAR101",
+    "email": "jb.jb@sob2.jbR6001 ",
+    "isEuCitizen": true,
+    "numberOfFailedStudies": 0
+}
+```
+Pomocí dotazu SQL dohledáme data v DBeveru:
+```SQL
+SELECT * FROM students WHERE id = 472
+```
+DBeaver vrací:
+
+| id    | first_name  | last_name  | email  | is_eu_citizen  |  number_of_failed_studies  |  
+| ----- | ----------  | ---------  | -----  | -------------  |  ------------------------  |
+| 472   | jonasR1001      | SOBOTAR101    | jb.jb@sob2.jbR6001  | True   |  0                         |
+
+
 ## Testování duplicitně přidané hodnoty email
 
 Vyhledáme první námi zadaný záznam s first_name = 'jonasR' v DBeaveru
@@ -55,9 +94,9 @@ Níže uvádíme tabulku vyhodnocení testů:
 
 | first_name  | last_name  | email  |  poznámka |  Status code  | Výsledek testu  |
 | ----------  | ---------  | -----  | -----------------------  |  ------  |  ------  |
-| jonasR101      | SOBOTAR101    | jb.jb@sob2.jbR | pouze hodnota email je duplicitní, ostatní jsou unikátní | 400 |  Passed  |
-| jonasR201      | SOBOTAR201    | jb.jb@sob2.jbR101 | všechny hodnoty jsou unikátní | 201 |  Failed  |
-| jonasR101      | SOBOTAR101    | jb.jb@sob2.jbR601 |  pouze hodnota email je unikátní, ostatní jsou duplicitní | 201 |  Failed  |
+| jonasR101      | SOBOTAR101    | jb.jb@sob2.jbR | pouze hodnota email je duplicitní, ostatní jsou unikátní | 400 |  Failed  |
+| jonasR201      | SOBOTAR201    | jb.jb@sob2.jbR101 | všechny hodnoty jsou unikátní | 201 |  Passed  |
+| jonasR101      | SOBOTAR101    | jb.jb@sob2.jbR601 |  pouze hodnota email je unikátní, ostatní jsou duplicitní | 201 |  Passed  |
 
 
 
