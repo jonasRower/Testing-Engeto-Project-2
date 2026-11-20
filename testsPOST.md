@@ -38,6 +38,8 @@ DBeaver vrací:
 | ----- | ----------  | ---------  | -----  | -------------  |  ------------------------  |
 | 472   | jonasR1001      | SOBOTAR101    | jb.jb@sob2.jbR6001  | True   |  0                         |
 
+Záznam byl přidán úspěšně
+
 
 ## Testování duplicitně přidané hodnoty email
 
